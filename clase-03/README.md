@@ -1,3 +1,3 @@
-# clase-02
+# clase-03
 
-miércoles 09 octubre 2024
+jueves 10 octubre 2024

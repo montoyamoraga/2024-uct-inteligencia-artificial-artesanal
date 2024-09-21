@@ -1,3 +1,3 @@
-# clase-00
+# clase-01
 
-lunes 07 octubre 2024
+martes 08 octubre 2024
