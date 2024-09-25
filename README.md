@@ -17,6 +17,19 @@ este repositorio contiene el código fuente de la asignatura de Inteligencia Art
 
 ## contenidos
 
-un artista por sesión
+* rebecca fiebrink, daniel shiffman
+* andreas refsgaard, gene kogan
+* allison parrish, maya man
+* janelle shane, sam lavigne
+* lauren lee mccarthy, casey reas
+* hypereikon, yotam mann
 
-ml5.js y p5.js
+## herramientas
+
+* p5.js
+* ml5.js
+* wekinator
+* processing
+* tensorflow
+* google colab
+* teachable machine

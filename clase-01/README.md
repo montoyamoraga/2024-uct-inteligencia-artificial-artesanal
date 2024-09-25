@@ -4,6 +4,8 @@ martes 08 octubre 2024
 
 09am-01pm
 
+artista: rebecca fiebrink
+
 introducción motivacional
 
 herramientas a usar en el curso
