@@ -1,6 +1,6 @@
 # clase-00
 
-lunes 07 octubre 2024
+ contenidos previos
 
 esto es de contenidos previos al curso
 

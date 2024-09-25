@@ -1,3 +1,5 @@
 # clase-04
 
-viernes 11 octubre 2024
+miércoles 09 octubre 2024
+
+03pm-06pm
