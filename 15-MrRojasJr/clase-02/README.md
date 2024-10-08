@@ -68,7 +68,7 @@ function draw() {
 }
 
 
- - Fin Código (JavaScript) -
+ * - Fin Código (JavaScript) -
 
 ## Apuntes
 
