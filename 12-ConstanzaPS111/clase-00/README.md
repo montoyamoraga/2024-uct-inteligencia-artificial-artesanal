@@ -2,7 +2,7 @@
 
 BITÁCORA PRIMERA CLASE WORKSHOP
 
-# Primeras pruebas de programación y movimiento.
+## Primeras pruebas de programación y movimiento.
 
 * https://editor.p5js.org/ConstanzaPS111/sketches/SISKs2dh4
 * https://editor.p5js.org/ConstanzaPS111/sketches/teLzQwwZN
