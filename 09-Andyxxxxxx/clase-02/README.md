@@ -2,7 +2,10 @@
 
 hola  kkkabros c:
 
-## manual
+## paginas clave
 
-* 1
-* lista
+* p5js.org
+* ml5js.org
+* processing
+
+
