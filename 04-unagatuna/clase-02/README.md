@@ -1,8 +1,11 @@
 # clase-02
 
-hola esta es mi bitacora de hoy
+Apuntes 15:00 hrs - 18:00 hrs
 
-##manual
-
-* 1
-* lista
+##Referentes mencionados
+* Rebeca Friebink
+* Benjamin Sanchez
+* Danniel Shiffman
+  
+Se puede hacer lo mismo describiendo + o - parametros
+Kadence "Domestika de programación"
