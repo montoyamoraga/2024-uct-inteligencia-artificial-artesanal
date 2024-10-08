@@ -1,7 +1,7 @@
 # clase-02
-UTILIZACION DE CODIGOS ML5 
+PROGRAMACION P5.JV
 
-## p5.jv
+## utilizacion de codigos ML5
 
-*handpose
-*facemesh
+* handPose
+* faceMesh
