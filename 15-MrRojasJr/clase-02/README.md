@@ -68,7 +68,6 @@ function draw() {
 }
 
 
- * - Fin Código (JavaScript) -
 
 ## Apuntes
 
