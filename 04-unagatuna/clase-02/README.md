@@ -9,3 +9,4 @@ Apuntes 15:00 hrs - 18:00 hrs
   
 Se puede hacer lo mismo describiendo + o - parametros
 Kadence "Domestika de programación"
+![pantallasodehoy](./pantallaso.png)
