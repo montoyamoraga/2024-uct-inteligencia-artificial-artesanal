@@ -6,12 +6,8 @@ martes 08 octubre 2024
 
 03pm-06pm
 
-## artista
+## artistas
 
-andreas refsgaard
+rebecca fiebrink, creadora de wekinator <https://wekinator.org/>
 
-teachable machine
-
-andreas refsgaard
-
-gene kogan
+daniel shiffman, autor del libro the nature of code y creador del canal the coding train <https://thecodingtrain.com/>

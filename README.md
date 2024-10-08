@@ -17,11 +17,11 @@ este repositorio contiene el código fuente de la asignatura de Inteligencia Art
 
 ## contenidos
 
+* lauren lee mccarthy, casey reas
 * rebecca fiebrink, daniel shiffman
 * andreas refsgaard, gene kogan
 * allison parrish, maya man
 * janelle shane, sam lavigne
-* lauren lee mccarthy, casey reas
 * hypereikon, yotam mann
 
 ## herramientas

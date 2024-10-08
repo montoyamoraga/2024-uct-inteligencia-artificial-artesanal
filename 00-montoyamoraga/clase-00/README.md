@@ -1,6 +1,6 @@
 # clase-00
 
- contenidos previos
+contenidos previos
 
 esto es de contenidos previos al curso
 
