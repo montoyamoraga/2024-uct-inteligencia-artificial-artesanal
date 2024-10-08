@@ -1,8 +1,13 @@
 # clase-02
 
-hola  c:
+hola  kkkabros c: clase 2 del workshop
 
-## manual
+## paginas clave
 
-* 1
-* lista
+* p5js.org
+* ml5js.org
+* processing
+* JavaScript
+
+
+
