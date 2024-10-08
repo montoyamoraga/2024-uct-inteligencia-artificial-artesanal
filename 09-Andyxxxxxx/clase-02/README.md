@@ -10,3 +10,4 @@ hola  kkkabros c: clase 2 del workshop
 * JavaScript
 
 
+![Duende choro con gorror](./duende captura.png).
