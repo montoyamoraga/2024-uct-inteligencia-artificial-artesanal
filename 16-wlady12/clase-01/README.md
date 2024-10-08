@@ -1,7 +1,7 @@
 # clase-01
 INDUCCION A LA PROGRAMACION
 
-## Progrmadores influytentes
+## Programadores influytentes
 * Daniel Shifman
 * John Maeda
 * Muriel Cooper
