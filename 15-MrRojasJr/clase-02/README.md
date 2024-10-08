@@ -8,17 +8,17 @@
 // FECHA: 08 de Octubre, 2024
 // CONTEXTO: Workshop FAAD [BETA]
 
-// Cualquier línea que esté escrita en JavaScript con // significa que es un "comentario" 
+Cualquier línea que esté escrita en JavaScript con // significa que es un "comentario" 
 
-// En caso de crear un código que por ABC motivo no funciona, una mejor opción a borrar es usar // y tenerlo como referencia
+En caso de crear un código que por ABC motivo no funciona, una mejor opción a borrar es usar // y tenerlo como referencia
 
-//El uso de mayúsculas separa comandos, debe de usarse en casos  muy específicos o importantes. No se DEBE empezar con mayúsculas.
+El uso de mayúsculas separa comandos, debe de usarse en casos  muy específicos o importantes. No se DEBE empezar con mayúsculas.
 
-//Declarar una variable es: let ___; y solo puede hacerse una vez por nombre
+Declarar una variable es: let ___; y solo puede hacerse una vez por nombre
 
-// En programación el signo = no es "es igual a..." sinó que "la variable que está a la izquierda vale lo que está a la derecha"
+En programación el signo = no es "es igual a..." sinó que "la variable que está a la izquierda vale lo que está a la derecha"
 
-//Puedes reemplazar valores numéricos con comandos (ver ejemplo de ellipse(posicionX, 375, 50, 50) ) 
+Puedes reemplazar valores numéricos con comandos (ver ejemplo de ellipse(posicionX, 375, 50, 50) ) 
 
 ## Código aplicado (JavaScript)
 
@@ -68,7 +68,9 @@ function draw() {
 }
 
 
-## Fin Código (JavaScript)
+ - Fin Código (JavaScript) -
+
+## Apuntes
 
 * El código debería de crear un Canva con una circunferencia (elípse) en movimiento.
 * background usa el código de color RGB.
@@ -78,6 +80,7 @@ function draw() {
 * Símbolo // aplica para "generar notas" dentro del código. Esto ya que // le dice al lenguaje de programación que "lo siguiente no existe/no lo tomes en cuenta".
 * NO BORRES EL CÓDIGO, lo mejor que puedes hacer es "reciclarlo" usando // y que el comando en deshuso sirva como referencia.
 * comando let da propiedad a palabras/comandos.
+* Símbolo = en JavaScript significa que " A posee el valor de B"
 * Los valores no son solo números, pueden asignársele otros comandos (como los hechos con let)
 * Sufijo .png/.jpg etc. son el tipo de programa o lectura que dicho sujeto tiene.
 * 
