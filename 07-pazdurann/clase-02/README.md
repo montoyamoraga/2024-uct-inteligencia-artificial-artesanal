@@ -19,22 +19,15 @@ Bitácora 08-10-2024
 
 ## apuntes de la clase
 
-UCLA DMA
-nyu itp
-google brain
-the aesthetics+ computation group 
-MIT NEDIA LAB
-kinect hardware / computer vision
-Java (vintage) no es lo mismo que javascript (web)
-PROCESSING (software)
-   void setup() {
-     size
-     background
-     noStroke   
-   }
-    void draw() {
-    ellipse (x, y, w, [h])
-*no espacio entre palabras camelCase*
+* UCLA DMA
+* nyu itp
+* google brain
+* the aesthetics+ computation group 
+* MIT NEDIA LAB
+* kinect hardware / computer vision
+* Java (vintage) no es lo mismo que javascript (web)
+* PROCESSING (software)
+* no espacio entre palabras (camelCase)
 * doble slash // comentario para mi
                                                     
  ## referentes
