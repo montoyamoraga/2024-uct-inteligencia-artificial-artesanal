@@ -22,7 +22,7 @@ Processing----Proce55ing----p5.j----ml5.j
 
 Resultados de la residencia de Andreas en su trabajo.
 
-Finalmente trabajé junto a mi compañero Ruben Gonzalo, en el uso de un nuevo ejemplo de codigo en Programacion, este tiene al conocido personaje de Mr Bean moviendose:
+Finalmente trabajé junto a mi compañero Ruben Gonzales, en el uso de un nuevo ejemplo de codigo en Programacion, este tiene al conocido personaje de Mr Bean moviendose:
 
 https://editor.p5js.org/Pablo123-alt/sketches/3yty7Nwi1
 
