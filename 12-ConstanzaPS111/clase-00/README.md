@@ -1,6 +1,6 @@
 # clase-00
 
-BITÁCORA PRIMERA CLASE WORKSHOP
+BITÁCORA Martes, 08 de octubre del 2024
 
 ## Primeras pruebas de programación y movimiento.
 
@@ -24,8 +24,9 @@ PROGRAMAS VISTOS EN CLASE
 * p5.js
 * ml5.js
 
+
+## EXPLICACIÓN PARA ENTENDER EL FUNCIONAMIENTO
 ```
-// EXPLICACIÓN PARA ENTENDER EL FUNCIONAMIENTO
 
 // codigo que explica variables
 // y movimiento de una elipse
