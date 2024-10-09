@@ -149,3 +149,79 @@ function gotResults(err, result) {
   }
 }
 ```
+
+ahora está el archivo index.html que es la web
+
+```html
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Image Regression using Feature Extraction with MobileNet. Built with p5.js</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <h3>Train a Neural Network to do regression</h3>
+  <div id="videoContainer"></div>
+  <h6><span id="modelStatus">Loading base model...</span> | <span id="videoStatus">Loading video...</span></h6>
+  <p>
+    <input type="range" name="slider" id="slider" min="0.01" max="1.0" step="0.01" value="0.5">
+  </p>
+  <br>
+  <p>
+    <button id="addSample">Add Sample</button>
+    <p><span id="amountOfSamples">0</span> Sample Images</p>
+  </p>
+
+  <br/>
+  <p><button id="train">Train</button><span id="loss"></span></p>
+  <p>
+    <button id="buttonPredict">Start predicting!</button>
+    <button id="buttonStopPredict">Stop predicting!</button><br>
+  </p>
+  
+  <button id="save">Save</button> 
+  <label for="avatar">Load Model:</label>
+  <input type="file" id="load" multiple/>
+  <br>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
+
+```
+
+este software hoy en 2024 no funciona así tal cual, por esta línea
+
+```html
+<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+```
+
+esta línea descarga la versión más actualizada de ml5.js, pero este software es del 2020 cuando la biblioteca ml5.js estaba en sus versiones 0.x.x, ahora en 2024 está en 1.x.x.
+
+para cambiar esto, reemplazamos esta línea, por esta
+
+```html
+<script src="https://unpkg.com/ml5@0.12.2/dist/ml5.min.js"></script>
+```
+
+el otro cambio es que hicimos, es que aquí en Temuco estamos trabajando con celulares, y cuando corremos el código, no vemos la captura de video, entonces modificamos la línea de código que hace el video.
+
+```javascript
+image(video, 3 * width / 4, 3 * height / 4, width / 4, height / 4);
+```
+
+y la cambiamos por esta
+
+```javascript
+image(video, 0 * width / 4, 0 * height / 4, width / 4, height / 4);
+```
+
+para entrenar este algoritmo, usé imágenes, de mí, de mi botella, y de mi mano tapando la cámara.
+![foto de mi](./)
+
+
