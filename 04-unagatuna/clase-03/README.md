@@ -10,8 +10,8 @@
 ## Apuntes generales
 * School of Machines, cursos breves de contenido poco comun
 * processing = proce55ing = acortar el nombre = p5
-* ml5
-* Openframeworks: 
+* Openframeworks:
+* knn: calcula el algoritmo, que trabaja con una base de datos ¿a que punto se acerca mas? 
 * ml4a <https://ml4a.net/> recursos de aprendizaje automatico de artes y creatividad
 * YOLO: algoritmo lector de imagenes
 
@@ -167,5 +167,12 @@ Finalmente comerzar a predecir con la camara web encendida, si el algoritmo logr
 * uft-8 Sistema de unificacion de todos los caracteres del mundo
 * Backtick, se puede agregar JavaScript o html, depende del codigo
 * ctrl + A Copiar todo
+* TPU: chip con unidad de procesamiento de tensores ((matrices, datos
+* rnn: balbucear texto
+
+
+## Apuntes generales
+* Tensorflow: tensor; coleccion de datos
+* teacheble machine: una IA que se puede entrenar, por ejemplo, que vea imagenes, escuhar sonidos o ver posturas
 
 
