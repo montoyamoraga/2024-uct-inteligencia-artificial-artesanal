@@ -15,3 +15,4 @@ para el proceso ocupamos https://teachablemachine.withgoogle.com/
 
 acordarse que hay que dividir el codigo que te da la pagina entre el que va en html y javascript. 
 FOTOS EN BASE DE DATOS DEL PROFE
+![foto de mi](NOMBREDELARCHIVO.LOQUESEA)
