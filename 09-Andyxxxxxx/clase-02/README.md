@@ -9,5 +9,8 @@ hola  kkkabros c: clase 2 del workshop
 * processing
 * JavaScript
 
+  # Captura de pantalla
+  
+
 
 
