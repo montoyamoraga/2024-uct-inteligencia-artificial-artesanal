@@ -10,5 +10,7 @@ antes la linea tenia la version latest: que es la ultima version.
 ```html
 <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
 ```
-
-
+fotitos jugando con el asunto:
+![foto de mi](./image (1).webp)
+![foto de mi](./image.webp)
+![foto de mi](./375005448-a0006680-e498-435d-b095-0c5fd3f0807b.webp)
