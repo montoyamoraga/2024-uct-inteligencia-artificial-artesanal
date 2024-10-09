@@ -131,4 +131,4 @@ function gotResults(err, result) {
 
 ![FotoPiedra](./pantallazoManoPiedra.png)
 
-![FotoTijeras](./pntallazoManoTijeras.png)
+![FotoTijeras](./pantallazoManoTijeras.png)
