@@ -13,4 +13,5 @@ Camina despacio, con fe y sin miedo, y hallarás la estatua, tu fiel, tu credo. 
 
 para el proceso ocupamos https://teachablemachine.withgoogle.com/
 
-acordarse que hay que dividir el codigo que te da la pagina entre el que va en html y javascript. base de datos(faltan algunas(estan el drive del profe(luego las subo))):
+acordarse que hay que dividir el codigo que te da la pagina entre el que va en html y javascript. 
+FOTOS EN BASE DE DATOS DEL PROFE
