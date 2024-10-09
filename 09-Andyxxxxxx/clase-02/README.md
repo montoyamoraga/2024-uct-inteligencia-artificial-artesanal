@@ -1,6 +1,6 @@
 # clase-02
 
-hola  kkkabros c: clase 2 del workshop
+clase 2 del workshop "Inteligencia Artifical Artesanal"
 
 ## paginas clave
 
@@ -8,9 +8,16 @@ hola  kkkabros c: clase 2 del workshop
 * ml5js.org
 * processing
 * JavaScript
+* GitHub
+* Htmlcolor
 
-  # Captura de pantalla
-  
+# Links
 
+* https://ml5js.org/
+* https://htmlcolorcodes.com/
+* https://p5js.org/
+* https://processing.org/reference
 
+# Captura de pantalla
+![duende captura](https://github.com/user-attachments/assets/dd356551-bbd5-42ed-90a1-b90860593474)
 
