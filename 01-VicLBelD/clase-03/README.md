@@ -8,7 +8,7 @@ Apuntes:
 - proce55ing = p5
 - <> links
 - entre parrafos siempre dejar un espacio, si no el programa piensa que es del mismo texto
-- ``` para los codigos/ 3 abren 3 cierran
+- ```para los codigos/ 3 abren 3 cierran
 - desde la carpeta se pueden subir archivos
 
 ## Links de los artistas 
