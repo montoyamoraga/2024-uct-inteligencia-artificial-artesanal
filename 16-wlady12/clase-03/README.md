@@ -223,6 +223,6 @@ image(video, 0 * width / 4, 0 * height / 4, width / 4, height / 4);
 
 para entrenar este algoritmo, usé imágenes, de mí, celular, mano y una plantano.
 
-![foto de mi](./mi_captura pantalla.png)
+![foto de mi](./mi_captura_pantalla.png)
 
 
