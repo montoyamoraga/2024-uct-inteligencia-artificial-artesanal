@@ -151,9 +151,7 @@ function gotResults(err, result) {
 }
 ```
 
-```html
-<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
-```
+
 
 # Capturas de Pantalla
 
