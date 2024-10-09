@@ -147,4 +147,4 @@ function gotResults(err, result) {
 ## Imagenes explicativos
 ![Pantallazo1](SmartSelect_20241009_114257_Gallery.jpg)
 ![Pantallazo2](SmartSelect_20241009_114319_Gallery.jpg)
-![Pantallazo3]
+![Pantallazo3](SmartSelect_20241009_114336_Gallery.jpg)
