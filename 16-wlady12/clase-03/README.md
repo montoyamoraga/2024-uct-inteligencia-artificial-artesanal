@@ -6,6 +6,6 @@
 
 ARTISTAS:
 
-* Gene Kgan
+* Gene Kogan  https://genekogan.com/
 * Rafael Lozano
 * Andreas Refsgaard
