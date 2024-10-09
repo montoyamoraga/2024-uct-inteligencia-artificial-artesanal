@@ -217,3 +217,11 @@ image(video, 0 * width / 4, 0 * height / 4, width / 4, height / 4);
 
 [Captura demostración Código + aplicación](Captura1.png)
 
+
+## Anotaciones
+
+* GPU hacen calculos el triple de rápidos que una CPU. la 1ra es dedicada a aspectos gráficos. la CPU hoy en día fue la que se utiliza para la creación de la I.A.. Hoy en día se están haciendo las TPU, exclusivas para I.A., si la CPU trabaja 1 a 2 números a la vez, la GPU 3 a 4 y la TPU muchos más. Hablamos de tensores, que son conjuntos de datos.
+
+* TensorFlow, extraído de
+
+La idea es un identificador de emociones faciales, y que en base a eso se genere...
