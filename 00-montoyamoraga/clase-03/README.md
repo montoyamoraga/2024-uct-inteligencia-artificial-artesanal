@@ -17,6 +17,7 @@ fuimos a la galería de ejemplos disponible en <https://ml5-fellowship-2020.gith
 
 elegimos el ejemplo Mr Bean Regression disponible en <https://editor.p5js.org/AndreasRef/sketches/4K_YGuMik>
 
+```
 /*
 Mr Bean regression
 
@@ -146,5 +147,5 @@ function gotResults(err, result) {
     predict();
   }
 }
-
+```
 
