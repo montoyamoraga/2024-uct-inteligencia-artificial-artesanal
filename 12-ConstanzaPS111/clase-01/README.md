@@ -121,7 +121,10 @@ function gotResults(err, result) {
 
 * Gene Kogan <https://genekogan.com/>
 * Andreas Refsgaard <https://www.andreasrefsgaard.dk/>
+*
 
+## Sitios de apoyo:
 
-
+* https://teachablemachine.withgoogle.com/train?action=onboardOpen&id=DFBbSTvtpy4
+* 
 
