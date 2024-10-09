@@ -26,4 +26,4 @@ Finalmente trabajé junto a mi compañero Ruben Gonzalo, en el uso de un nuevo e
 
 https://editor.p5js.org/Pablo123-alt/sketches/3yty7Nwi1
 
-![375005448-a0006680-e498-435d-b095-0c5fd3f0807b](https://github.com/user-attachments/assets/195af39f-45f2-4b8b-8484-7215b84651d3)
+![375005448-a0006680-e498-435d-b095-0c5fd3f0807b](https://github.com/user-attachments/assets/857ab041-393f-4111-83ac-7ef0f741ca78)
