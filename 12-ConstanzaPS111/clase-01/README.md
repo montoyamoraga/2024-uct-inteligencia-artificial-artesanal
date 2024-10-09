@@ -4,8 +4,8 @@
 
 ## PRUEBA CON MOVIMIENTO CON CÁMARA DE UN CUERPO
 
-! [Vídeo de prueba] Cony.mp4
-! [Imagen de prueba] 
+![Vídeo de prueba] (./Cony.mp4)
+![Imagen de prueba] (./
 
 ```
 let featureExtractor;
