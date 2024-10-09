@@ -128,5 +128,5 @@ function gotResults(err, result) {
 `````
 
 [FotoPapel](./pantallazoManoPapel.png)
-[FotoPedral](./pantallazoManoPiedra.png)
+[FotoPiedra](./pantallazoManoPiedra.png)
 [FotoTijeras](./pantallazoManoTijeras.png)
