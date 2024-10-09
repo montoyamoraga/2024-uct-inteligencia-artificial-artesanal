@@ -27,6 +27,6 @@
 
 * You Only Look Once (YOLO)
 
-  ![foto de mi] 
+  ![video explicativo](./Recorder_09102024_103740.mp4) 
 
   
