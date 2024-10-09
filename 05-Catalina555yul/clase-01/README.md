@@ -16,11 +16,13 @@ Andreas Refsgaard <https://www.andreasrefsgaard.dk/>
 Hypereikon
 Rafael Lozano-Hemmer
 
+## PRUEBAS DE MOVIMIENTO
 
 ![imagen de registro] (./Screenshot_20241009_120313_Gallery.jpg)
 
-![video de prueba ] (
+![video de prueba ] (.Yooo.mp4)
 
+```
 let featureExtractor;
 let regressor;
 let video;
@@ -135,3 +137,4 @@ function gotResults(err, result) {
     predict();
   }
 }
+```
