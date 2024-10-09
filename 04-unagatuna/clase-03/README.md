@@ -147,7 +147,10 @@ function gotResults(err, result) {
   }
 }
 ```
+
 ![Entrenando el algoritmo](muestra1.jpg)
+![Entrenando el algoritmo](muestra2.jpg)
+![Entrenando el algoritmo](muestra3.jpg)
 
 
 ## Terminos y simbologia
