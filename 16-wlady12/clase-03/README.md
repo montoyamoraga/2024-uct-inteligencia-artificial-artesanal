@@ -229,10 +229,12 @@ para entrenar este algoritmo, usé imágenes, de mí, celular, mano y una planta
 ## CPU - GPU - TPU
 
 cpu https://es.wikipedia.org/wiki/Unidad_central_de_procesamiento
+
 gpu https://es.wikipedia.org/wiki/Unidad_de_procesamiento_gr%C3%A1fico
+
 tpu https://en.wikipedia.org/wiki/Tensor_Processing_Unit
 
-diferencias en gpu vs tpu https://hashdork.com/es/gpu-contra-tpu/
+diferencias en gpu vs tpu (https://hashdork.com/es/gpu-contra-tpu/) 
 
 
 
