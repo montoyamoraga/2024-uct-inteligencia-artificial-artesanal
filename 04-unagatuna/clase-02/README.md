@@ -13,7 +13,7 @@
 * Markdown Cheatsheet, repositorio de términos generales en programacion
 * para agregar pantallasos ![nombre qe es] (nombre de la foto)
 
-## Terminos y simbologia
-* # titulo
-* ## subtitulo
+## Términos y símbologia
+*# titulo
+*## subtitulo
 * for repetir "x" veces
