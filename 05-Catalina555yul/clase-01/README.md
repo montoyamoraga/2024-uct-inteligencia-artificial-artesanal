@@ -3,7 +3,9 @@
 MARTES
 09-10-2024
 
-* Programas utilizados hoy <https://editor.p5js.org/>
+* Programas utilizados hoy
+
+<https://editor.p5js.org/>
   
 <https://github.com/>
 
@@ -13,12 +15,14 @@ MARTES
 
 <https://ml4a.net/>
 
-* Referentes 
+* Referentes
+  
 Gene Kogan <https://genekogan.com/>
 
 Andreas Refsgaard <https://www.andreasrefsgaard.dk/>
 
 Hypereikon
+
 Rafael Lozano-Hemmer
 
 ## PRUEBAS DE MOVIMIENTO
