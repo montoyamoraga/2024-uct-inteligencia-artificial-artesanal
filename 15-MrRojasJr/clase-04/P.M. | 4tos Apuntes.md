@@ -46,6 +46,7 @@ Ya con la idea concretada, se usó Teachable Machine con su opción de captura d
 Para las voces se utilizaron las voces de Wladimir y mías además de otras generadas por I.A., las de nosotros con distintos  tonos, acentos y expresiones para tener más opciones de pronunciación.
 
 Una vez entrenado el modelo de Teachable Machine se extrajo su código en formato JavaScript y pj5.js
+
 A continuación el código en JavaScript
 
 ```javascript
