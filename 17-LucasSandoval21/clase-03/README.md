@@ -86,6 +86,8 @@ https://github.com/LucasSandoval21/2024-uct-inteligencia-artificial-artesanal/bl
 
 ![Uploading Captura de pantalla 2024-10-09 115526.png…]()
 
+HandTracking, Handpose
+
 
 
 ## Proceso de actualizar un ejemplo de Andreas Refsgaard
