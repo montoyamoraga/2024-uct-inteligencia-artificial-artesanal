@@ -14,9 +14,8 @@
 
   ## Referentes
 
-* Raul Zurita- poeta chileno
-* cristobal valenzuela/ runway
-* daniel shiffman (the coding train)/ml5.js
-* John Maeda/ the laws of simplicity
-* Muriel Cooper/ diseñadora- visible lenguage workshop
+* Cristobal Valenzuela - Runway
+* Daniel Shiffman - The coding train - ml5.js
+* John Maeda - The laws of simplicity
+* Muriel Cooper- Diseñadora- Visible Lenguage Workshop
 * Rebeca Flebrink
