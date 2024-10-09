@@ -152,5 +152,5 @@ function gotResults(err, result) {
 
 ## Terminos y simbologia
 * uft-8 Sistema de unificacion de todos los caracteres del mundo
-* ``` Backtick, se puede agregar JavaScript o html, depende del codigo
+* Backtick, se puede agregar JavaScript o html, depende del codigo
 * ctrl + A Copiar todo
