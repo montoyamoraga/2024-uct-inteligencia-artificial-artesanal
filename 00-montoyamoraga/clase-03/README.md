@@ -220,4 +220,7 @@ y la cambiamos por esta
 image(video, 0 * width / 4, 0 * height / 4, width / 4, height / 4);
 ```
 
+para entrenar este algoritmo, usé imágenes, de mí, de mi botella, y de mi mano tapando la cámara.
+
+![foto de mi](./capturaPantalla.jpg)
 
