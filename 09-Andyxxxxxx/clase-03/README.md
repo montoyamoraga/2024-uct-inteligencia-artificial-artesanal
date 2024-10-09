@@ -155,10 +155,12 @@ function gotResults(err, result) {
 
 # Capturas de Pantalla
 
+
+# Mano Abierta
 ![Captura de pantalla (38)](https://github.com/user-attachments/assets/dda9b9f5-5b32-4364-ae1f-af48508908a7)
-
+# Mano Cerrada
 ![Captura de pantalla (39)](https://github.com/user-attachments/assets/9ef2d94e-02d8-4a2d-8577-23607e8a80a2)
-
+# Pulgar Arriba
 ![Captura de pantalla (40)](https://github.com/user-attachments/assets/11e0ad4a-b029-4640-be46-91df2af20f16)
 
 
