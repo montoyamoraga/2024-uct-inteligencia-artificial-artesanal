@@ -4,9 +4,15 @@
 
 ## PRUEBA CON MOVIMIENTO CON CÁMARA DE UN CUERPO
 
-![Vídeo de prueba] (./Cony.mp4)
-![Imagen de prueba] (./
+https://editor.p5js.org/montoyamoraga/sketches/Fy6d1rew6
 
+
+![Vídeo de prueba] (./Cony.mp4)
+
+
+![Imagen de prueba] (./Reproductor multimedia 09-10-2024 11_04_03.png)
+
+## CÓDIGO:
 ```
 let featureExtractor;
 let regressor;
@@ -115,6 +121,7 @@ function gotResults(err, result) {
 
 * Gene Kogan <https://genekogan.com/>
 * Andreas Refsgaard <https://www.andreasrefsgaard.dk/>
-* 
+
+
 
 
