@@ -4,7 +4,7 @@ Clase de inicio, retroalimentacion de usar funciones en Github
 
 # Vista a artistas
 
-Andreas Efsgaar, Gene Kogan, Rafael Lozano-Hemmer
+Andreas Refsgaard, Gene Kogan, Rafael Lozano-Hemmer
 
 # Mas Bitacoras
 
@@ -25,3 +25,5 @@ ml4a "Libro"
 ml5.js
 
 p5.js
+
+## Proceso de actualizar un ejemplo de Andreas Refsgaard
