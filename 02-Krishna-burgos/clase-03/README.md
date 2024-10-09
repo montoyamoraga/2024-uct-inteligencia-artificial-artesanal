@@ -165,4 +165,4 @@ function gotResults(err, result) {
   }
 }
 ```
-
+![capturapruebadealgoritmo](./capturaPrueba.webp)
