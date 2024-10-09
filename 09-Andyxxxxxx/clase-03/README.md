@@ -14,9 +14,10 @@
   * YOLO AI
   * ML4a.net
   * Backtick
+  * De ml5.js simple a avanzado
+  * Entrevista a Andreas Refsgaard, becario ml5.js 2020
 
-De ml5.js simple a avanzado
-Entrevista a Andreas Refsgaard, becario ml5.js 2020
+## Comando Mr Bean
 
 ```
 /*
