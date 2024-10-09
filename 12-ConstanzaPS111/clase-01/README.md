@@ -4,8 +4,6 @@
 
 ## PRUEBA CON MOVIMIENTO CON CÁMARA DE UN CUERPO
 
-
-
 ```
 let featureExtractor;
 let regressor;
