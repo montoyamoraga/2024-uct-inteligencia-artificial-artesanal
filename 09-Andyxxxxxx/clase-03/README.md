@@ -150,6 +150,11 @@ function gotResults(err, result) {
   }
 }
 ```
+
+```html
+<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+```
+
 # Capturas de Pantalla
 
 ![Captura de pantalla (38)](https://github.com/user-attachments/assets/dda9b9f5-5b32-4364-ae1f-af48508908a7)
