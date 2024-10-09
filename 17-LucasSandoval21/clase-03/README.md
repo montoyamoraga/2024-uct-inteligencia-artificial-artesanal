@@ -88,6 +88,10 @@ https://github.com/LucasSandoval21/2024-uct-inteligencia-artificial-artesanal/bl
 
 HandTracking, Handpose
 
+Tensorflow
+
+pytorch
+
 
 
 ## Proceso de actualizar un ejemplo de Andreas Refsgaard
