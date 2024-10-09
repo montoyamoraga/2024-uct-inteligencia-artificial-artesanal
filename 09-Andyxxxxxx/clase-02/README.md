@@ -19,5 +19,6 @@ clase 2 del workshop "Inteligencia Artifical Artesanal"
 * https://processing.org/reference
 
 # Captura de pantalla
-![duende captura](https://github.com/user-attachments/assets/dd356551-bbd5-42ed-90a1-b90860593474)
+
+![duende captura](https://github.com/user-attachments/assets/592efd37-b599-4f43-8ba4-fd8cd9de157f)
 
