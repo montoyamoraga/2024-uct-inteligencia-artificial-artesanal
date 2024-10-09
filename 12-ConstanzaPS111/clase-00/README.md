@@ -8,7 +8,13 @@ BITÁCORA PRIMERA CLASE WORKSHOP
 * https://editor.p5js.org/ConstanzaPS111/sketches/teLzQwwZN
 
 PROGRAMAS VISTOS EN CLASE
-*Processing
+* p5.js
+* ml5.js
+* wekinator
+* processing
+* tensorflow
+* google colab
+* teachable machine
 
 ## PROGRAMAS ÚTILIZADOS
 
