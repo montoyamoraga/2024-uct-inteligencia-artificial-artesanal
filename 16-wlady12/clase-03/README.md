@@ -1,6 +1,6 @@
 # clase-03
 
-(EL FALLAR TAMBIEN SE DISEÑA)
+¡¡¡EL FALLAR TAMBIEN SE DISEÑA!!!
 
 ## fallos _ obsoleto _ cirugia code
 
