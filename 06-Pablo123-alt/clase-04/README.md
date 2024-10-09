@@ -34,16 +34,27 @@ Para encontrar cada lugar u objeto. se enseñara un poema o escrito que te orien
 por ejemplo para encontrar la virgen se podria ocupar el siguiente poema generado por chat gpt  y adaptado para este propocito. ejemplo:
 
 En un rincón donde el viento susurra,
+
 entre altos muros, su paz se asegura,
+
 una figura de gracia y ternura,
+
 que a las aguas nunca mira, su postura.
 
+
 En el centro del campo, rodeada de prisa,
+
 busca la madre, sin más improvisa,
+
 de espaldas al lago, su amor te da vida,
+
 en medio del caos, su luz es tu guía.
 
+
 Camina despacio, con fe y sin miedo,
+
 y hallarás la estatua, tu fiel, tu credo.
+
 Escucha el silencio, y deja que hable,
+
 pues su abrazo eterno, siempre te abraze.
