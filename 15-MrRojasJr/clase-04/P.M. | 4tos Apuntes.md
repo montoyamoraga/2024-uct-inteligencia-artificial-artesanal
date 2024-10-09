@@ -14,10 +14,10 @@ en base a aquello generar la reacción.
 
 * Acortando las ideas pt. 1:
 
-  *Identificador de bostezo. Dependiendo de qué tan grande y extenso sea el bostezo (apertura de la boca) se generen reacciones en el fondo. Puede ser: 
+  * Identificador de bostezo. Dependiendo de qué tan grande y extenso sea el bostezo (apertura de la boca) se generen reacciones en el fondo. Puede ser: 
 Temblor de cámara/pantalla.
 
-  *Identificador de estiramiento  - Estirómetro. Dependiendo de qué tan grande y extenso sea el acto de estirar de la persona frente a la cámara, se van 
+  * Identificador de estiramiento  - Estirómetro. Dependiendo de qué tan grande y extenso sea el acto de estirar de la persona frente a la cámara, se van 
 generando ruidos que simulen las crepitaciones óseas.
  
 * Acortando las ideas pt. 2:
