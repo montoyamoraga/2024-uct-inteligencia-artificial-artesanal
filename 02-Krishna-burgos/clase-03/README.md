@@ -166,4 +166,5 @@ function gotResults(err, result) {
 }
 ```
 ![capturapruebadealgoritmo](./capturaPrueba.webp)
+
 ![pruebaalgoritmo.mr.bean](./pruebadealgoritmo.mp4)
