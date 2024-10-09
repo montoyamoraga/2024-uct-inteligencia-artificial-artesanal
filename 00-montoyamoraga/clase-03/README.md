@@ -194,3 +194,30 @@ ahora está el archivo index.html que es la web
 
 ```
 
+este software hoy en 2024 no funciona así tal cual, por esta línea
+
+```html
+<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+```
+
+esta línea descarga la versión más actualizada de ml5.js, pero este software es del 2020 cuando la biblioteca ml5.js estaba en sus versiones 0.x.x, ahora en 2024 está en 1.x.x.
+
+para cambiar esto, reemplazamos esta línea, por esta
+
+```html
+<script src="https://unpkg.com/ml5@0.12.2/dist/ml5.min.js"></script>
+```
+
+el otro cambio es que hicimos, es que aquí en Temuco estamos trabajando con celulares, y cuando corremos el código, no vemos la captura de video, entonces modificamos la línea de código que hace el video.
+
+```javascript
+image(video, 3 * width / 4, 3 * height / 4, width / 4, height / 4);
+```
+
+y la cambiamos por esta
+
+```javascript
+image(video, 0 * width / 4, 0 * height / 4, width / 4, height / 4);
+```
+
+
