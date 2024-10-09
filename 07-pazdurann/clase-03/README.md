@@ -5,7 +5,11 @@
 
 * <https://editor.p5js.org/montoyamoraga/sketches/Fy6d1rew6>
 
-  ![video explicativo](./Recorder_09102024_103740.mp4) 
+  ![video explicativo de prueba](./Recorder_09102024_103740.mp4)
+
+  ![imagen explicativa de prueba](./capturaPantallaDePrueba.png)
+
+
 
 ## referentes
 
