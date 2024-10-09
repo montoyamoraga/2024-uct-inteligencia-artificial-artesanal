@@ -83,4 +83,9 @@ backtick
 ```html
 https://github.com/LucasSandoval21/2024-uct-inteligencia-artificial-artesanal/blob/main/17-LucasSandoval21/clase-03/README.md```
 
+
+![Uploading Captura de pantalla 2024-10-09 115526.png…]()
+
+
+
 ## Proceso de actualizar un ejemplo de Andreas Refsgaard
