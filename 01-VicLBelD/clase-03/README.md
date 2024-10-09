@@ -13,7 +13,7 @@ Apuntes:
 
 ## Codigo de Mr bean
 
-```
+```javascript
 /*
 Mr Bean regression
 
