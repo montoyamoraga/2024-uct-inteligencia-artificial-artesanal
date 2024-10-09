@@ -230,5 +230,5 @@ Con el compañero de Arquitectura Wladimir y quién escribe, Manuel Rojas, pimpo
 Con lo anterior se presentan las siguientes ideas:
 * Identificador de emociones faciales, y que en base a eso se genere deformaciones en el ambiente, ya sea color, forma. Pueden ser Alegría, Enojo y sorpresa y en base a aquello generar la reacción.
 * Identificador de emociones faciales que al detectar una emoción, refleje en el rostro de la persona la emoción contraria.
-*Comité de belleza - Aesthetic. En base a las prendas de las personas, generar una "medida estandarizada" respecto de qué tan aesthetic o qué tan estétitca es aquella prenda.
-*Comité de desfile. En base a las poses de la persona, generar un "Puntaje" de "estilo de pose"/"modelaje" de la persona. Otra opción es que en vez de puntaje diga un tipo de "corriente" de estilo (físicocultismo, moda, dragg, ballet, militar, etc.)
+* omité de belleza - Aesthetic. En base a las prendas de las personas, generar una "medida estandarizada" respecto de qué tan aesthetic o qué tan estétitca es aquella prenda.
+* Comité de desfile. En base a las poses de la persona, generar un "Puntaje" de "estilo de pose"/"modelaje" de la persona. Otra opción es que en vez de puntaje diga un tipo de "corriente" de estilo (físicocultismo, moda, dragg, ballet, militar, etc.)
