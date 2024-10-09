@@ -165,11 +165,17 @@ function gotResults(err, result) {
   }
 }
 ```
-![capturapruebadealgoritmo](./capturaPrueba.webp)
 
-![pruebaalgoritmo.mr.bean](./pruebadealgoritmo.mp4)
-
+![captura prueba de algoritmo](./capturaPrueba.webp)
 
 
-tensorflow
+![prueba algoritmo.mr.bean](./pruebadealgoritmo.mp4)
+
+
+
+* tensorflow
+* ml5 empaqueta algo muy dificil llamado tensorflow
+* usaremos handpose
+* 
+
 
