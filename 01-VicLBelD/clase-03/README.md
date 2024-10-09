@@ -27,6 +27,8 @@ Apuntes:
 
 <https://www.tensorflow.org/?hl=es-419>
 
+<https://teachablemachine.withgoogle.com/>
+
 
 ## Codigo de Mr bean
 
