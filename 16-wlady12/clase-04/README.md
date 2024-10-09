@@ -20,4 +20,5 @@ plataformas a utilizar:
 teachable machine https://teachablemachine.withgoogle.com/train/audio
 
 grabador de texto a voz (https://luvvoice.com/es)
+![foto de mi](./capturapantalla_luvvoice.png)
 
