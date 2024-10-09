@@ -16,6 +16,7 @@
   * Backtick
   * De ml5.js simple a avanzado
   * Entrevista a Andreas Refsgaard, becario ml5.js 2020
+  * Coral.AI
 
 ## Comando Mr Bean
 
