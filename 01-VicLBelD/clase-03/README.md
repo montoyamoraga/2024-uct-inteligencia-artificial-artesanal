@@ -21,6 +21,8 @@ Apuntes:
 
 ## Links
 
+<https://www.schoolofma.org/>
+
 <https://coral.ai/products/>
 
 ## Codigo de Mr bean
