@@ -15,6 +15,8 @@ Apuntes:
 
 <https://genekogan.com/>
 
+<https://www.lozano-hemmer.com/>
+
 ## Codigo de Mr bean
 
 ```javascript
