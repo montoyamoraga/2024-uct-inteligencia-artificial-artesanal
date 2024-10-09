@@ -16,7 +16,10 @@ Andreas Refsgaard <https://www.andreasrefsgaard.dk/>
 Hypereikon
 Rafael Lozano-Hemmer
 
-para enterenar este algoritmo utilice un vaso de carton 
+
+![imagen de registro] (./Screenshot_20241009_120313_Gallery.jpg)
+
+![video de prueba ] (
 
 let featureExtractor;
 let regressor;
