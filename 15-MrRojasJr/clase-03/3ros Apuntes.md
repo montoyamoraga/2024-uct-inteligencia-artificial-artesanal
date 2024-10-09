@@ -222,6 +222,13 @@ image(video, 0 * width / 4, 0 * height / 4, width / 4, height / 4);
 
 * GPU hacen calculos el triple de rápidos que una CPU. la 1ra es dedicada a aspectos gráficos. la CPU hoy en día fue la que se utiliza para la creación de la I.A.. Hoy en día se están haciendo las TPU, exclusivas para I.A., si la CPU trabaja 1 a 2 números a la vez, la GPU 3 a 4 y la TPU muchos más. Hablamos de tensores, que son conjuntos de datos.
 
-* TensorFlow, extraído de
+* TensorFlow
 
-La idea es un identificador de emociones faciales, y que en base a eso se genere...
+## De camino al proyecto de Workshop
+
+Con el compañero de Arquitectura Wladimir y quién escribe, Manuel Rojas, pimponeamos ideas respecto de qué realizar y programar. 
+Con lo anterior se presentan las siguientes ideas:
+* Identificador de emociones faciales, y que en base a eso se genere deformaciones en el ambiente, ya sea color, forma. Pueden ser Alegría, Enojo y sorpresa y en base a aquello generar la reacción.
+* Identificador de emociones faciales que al detectar una emoción, refleje en el rostro de la persona la emoción contraria.
+*Comité de belleza - Aesthetic. En base a las prendas de las personas, generar una "medida estandarizada" respecto de qué tan aesthetic o qué tan estétitca es aquella prenda.
+*Comité de desfile. En base a las poses de la persona, generar un "Puntaje" de "estilo de pose"/"modelaje" de la persona. Otra opción es que en vez de puntaje diga un tipo de "corriente" de estilo (físicocultismo, moda, dragg, ballet, militar, etc.)
