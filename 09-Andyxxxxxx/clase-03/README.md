@@ -159,6 +159,6 @@ function gotResults(err, result) {
 ![Captura de pantalla (40)](https://github.com/user-attachments/assets/11e0ad4a-b029-4640-be46-91df2af20f16)
 
 
-![foto]
+https://github.com/Andyxxxxxx/2024-uct-inteligencia-artificial-artesanal/blob/main/09-Andyxxxxxx/clase-03/profe.webp
 
 
