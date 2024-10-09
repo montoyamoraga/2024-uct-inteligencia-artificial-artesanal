@@ -8,3 +8,5 @@ Idea en parejas para mañana
 ```https://www.youtube.com/watch?v=MH03ZJaNe8A```
 
 Teachable Machine
+
+p5play ex5ample modificado
