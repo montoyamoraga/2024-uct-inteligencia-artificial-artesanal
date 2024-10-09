@@ -127,6 +127,6 @@ function gotResults(err, result) {
 }
 `````
 
-[FotoPapel](./pantallazoManoPapel.png)
-[FotoPiedra](./pantallazoManoPiedra.png)
-[FotoTijeras](./pantallazoManoTijeras.png)
+![FotoPapel](./pantallazoManoPapel.png)
+![FotoPiedra](./pantallazoManoPiedra.png)
+![FotoTijeras](./pantallazoManoTijeras.png)
