@@ -4,6 +4,11 @@
 
 Idea general, grafica que representa y/o cambia dependiendo de lo que se le muestre en camara
 
+## Entrenar IA
+subir fotografias de herramienta que represente a cada una de las carreras
+
+https://teachablemachine.withgoogle.com/train/image
+
  ## pagina p5js
 
  https://editor.p5js.org/Betoxoxo/sketches/gT00fgM-L
