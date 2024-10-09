@@ -19,11 +19,14 @@ Apuntes:
 
 <https://www.andreasrefsgaard.dk/>
 
-## Links
+## Links Visitados
 
 <https://www.schoolofma.org/>
 
 <https://coral.ai/products/>
+
+<https://www.tensorflow.org/?hl=es-419>
+
 
 ## Codigo de Mr bean
 
