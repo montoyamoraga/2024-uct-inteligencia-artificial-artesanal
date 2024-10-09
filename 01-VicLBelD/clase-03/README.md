@@ -11,6 +11,10 @@ Apuntes:
 ˋˋˋ para los codigos/ 3 abren 3 cierran
 - desde la carpeta se pueden subir archivos
 
+## Links de los artistas 
+
+<https://genekogan.com/>
+
 ## Codigo de Mr bean
 
 ```javascript
