@@ -26,4 +26,6 @@ ml5.js
 
 p5.js
 
+ctrl + a "Seleccionar todo"
+
 ## Proceso de actualizar un ejemplo de Andreas Refsgaard
