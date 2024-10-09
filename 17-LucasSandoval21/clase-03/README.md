@@ -31,8 +31,8 @@ ctrl + a "Seleccionar todo"
 backtick
 
 
-
-//<html>
+```html
+<html>
 <head>
   <meta charset="UTF-8">
   <title>Image Regression using Feature Extraction with MobileNet. Built with p5.js</title>
@@ -71,7 +71,7 @@ backtick
 </body>
 
 </html>
-
+```
 
 
 ## Proceso de actualizar un ejemplo de Andreas Refsgaard
