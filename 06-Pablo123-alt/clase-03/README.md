@@ -27,5 +27,9 @@ Finalmente trabajé junto a mi compañero Ruben Gonzalo, en el uso de un nuevo e
 https://editor.p5js.org/Pablo123-alt/sketches/3yty7Nwi1
 
 ![375005448-a0006680-e498-435d-b095-0c5fd3f0807b](https://github.com/user-attachments/assets/857ab041-393f-4111-83ac-7ef0f741ca78)
+![image](https://github.com/user-attachments/assets/10bd2627-ae16-4b74-857e-706f1e0d48d0)
 
-https://cdn.discordapp.com/attachments/1293586158219169802/1293588751733231760/image2.webp?ex=6707ebe8&is=67069a68&hm=e4854f9c43bafcdd751ec161ef9523560b7af8f02e2aee490e337f0b1211ae26&
+fotitos jugando con el asunto:
+![foto de mi](./image2.webp)
+![foto de mi](./image.webp)
+![foto de mi](./375005448-a0006680-e498-435d-b095-0c5fd3f0807b.webp)
