@@ -1,16 +1,6 @@
 # clase-03
 ## bitácora miercoles 09-10-2024
 
-## pruebas de algoritmos de la clase
-
-* <https://editor.p5js.org/montoyamoraga/sketches/Fy6d1rew6>
-
-  ![video explicativo de prueba](./Recorder_09102024_103740.mp4)
-
-  ![imagen explicativa de prueba](./capturaPantallaDePrueba.png)
-
-
-
 ## referentes
 
 * Gene Kogan/ códigos en el arte <https://genekogan.com/>
@@ -28,12 +18,16 @@
 * proce55ing o p5 (pertenece a la misma fundación de p5.js)
 * <https://ml5js.org/>
 * <https://ml5-fellowship-2020.github.io/examples/>
-  
+
 ## algoritmos
 
 * You Only Look Once (YOLO)
 
-  ## proceso de actualizar un ejemplo de Andreas Refsgaard
+## pruebas de algoritmos de la clase
+
+* <https://editor.p5js.org/montoyamoraga/sketches/Fy6d1rew6>
+  
+## proceso de actualizar un ejemplo de Andreas Refsgaard
 
 encontramos el artículo en Medium.com de Andreas Refsgaard en su residencia de ml5.js disponible en <https://medium.com/processing-foundation/from-simple-to-advanced-ml5-js-70d6730b360b>
 
@@ -244,9 +238,18 @@ y la cambiamos por esta
 image(video, 0 * width / 4, 0 * height / 4, width / 4, height / 4);
 ```
 
-para entrenar este algoritmo, usé imágenes, de mí, de mi botella, y de mi mano tapando la cámara.
+para entrenar este algoritmo, usé imágenes, de mí, de mi mano abriendo y cerrando, y de mi mano tapando la cámara.
 
-![foto de mi](./pantallazoDeMi.webp)
+ ![imagen explicativa de prueba](./capturaPantallaDePrueba.png)
+
+ ![video explicativo de prueba](./Recorder_09102024_103740.mp4)
+
+
+
+
+
+ 
+ 
 
   
 
