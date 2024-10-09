@@ -77,8 +77,8 @@ function draw() {
 * ; se aplica al final de cada comando.
 * = en JavaScript significa que " A posee el valor de B"
 * // aplica para "generar notas" dentro del código. Esto ya que // le dice al lenguaje de programación que "lo siguiente no existe/no lo tomes en cuenta".
-* comando let da propiedad a palabras/comandos.
-* "console.log" abre la lectura de la consola, que explica de manera detallada lo programado.
+* Comando "let" da propiedad a palabras/comandos.
+* Comando "console.log" abre la lectura de la consola, que explica de manera detallada lo programado.
 * NO BORRES EL CÓDIGO, lo mejor que puedes hacer es "reciclarlo" usando // y que el comando en deshuso sirva como referencia.
 * Los valores no son solo números, pueden asignársele otros comandos (como los hechos con let)
 * Sufijo .png/.jpg etc. son el tipo de programa o lectura que dicho sujeto tiene.
