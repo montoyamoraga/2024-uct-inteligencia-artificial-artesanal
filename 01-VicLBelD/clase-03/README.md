@@ -144,4 +144,5 @@ function gotResults(err, result) {
   }
 }
 ```
-
+## Imagenes explicativos
+![Pantallazo](SmartSelect_20241009_114257_Gallery.jpg)
