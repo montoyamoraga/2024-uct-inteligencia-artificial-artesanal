@@ -16,6 +16,8 @@
   * Backtick
   * De ml5.js simple a avanzado
   * Entrevista a Andreas Refsgaard, becario ml5.js 2020
+  * Coral.AI
+  * teachable machine
 
 ## Comando Mr Bean
 
@@ -150,3 +152,26 @@ function gotResults(err, result) {
   }
 }
 ```
+
+
+
+# Capturas de Pantalla
+
+
+# Mano Abierta
+![Captura de pantalla (38)](https://github.com/user-attachments/assets/dda9b9f5-5b32-4364-ae1f-af48508908a7)
+# Mano Cerrada
+![Captura de pantalla (39)](https://github.com/user-attachments/assets/9ef2d94e-02d8-4a2d-8577-23607e8a80a2)
+# Pulgar Arriba
+![Captura de pantalla (40)](https://github.com/user-attachments/assets/11e0ad4a-b029-4640-be46-91df2af20f16)
+
+
+
+# Video de Muestra
+
+
+[1592f684-ca2a-4846-aad7-f0c247e94086.webm](https://github.com/user-attachments/assets/3fbb34a6-27b8-4f3b-af0a-a6ea47819bf7)
+
+
+
+
