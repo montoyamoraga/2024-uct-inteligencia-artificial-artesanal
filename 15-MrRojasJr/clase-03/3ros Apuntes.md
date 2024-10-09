@@ -215,5 +215,5 @@ Y se modifica por ésta (Lo que hace es cambiar el ángulo de la cámara para qu
 image(video, 0 * width / 4, 0 * height / 4, width / 4, height / 4);
 ```
 
-[!Video de demostración del programa en uso](DEMO_CapMot1.mp4)
+[!Video de demostración del programa en uso](DEMO_CapMot1.0.mp4)
 
