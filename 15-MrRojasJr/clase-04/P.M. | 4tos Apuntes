@@ -25,3 +25,9 @@ generando ruidos que simulen las crepitaciones óseas.
 en la cámara y van desapareciendo de manera gradual. Una suerte de lienzo en blanco que se va creando en base a lo que uno dice.
   * Termostato de ruido. En base a la cantidad de ruido que el micrófono del dispositivo identifique, la pantalla se va llenando de formas o letras, quizá 
 que transcriba el ruido y segun el ruido se genere cierta forma o letra en específico.
+
+## Idea final
+
+* Identificador de palabras ¿Puedes identificar cuales son las 10 palabras más frecuentes a nivel de facultad?.
+
+Para eso entrenaremos una I.A. que, en base a las 10 palabras genere una "recompensa" visual o sonora a quién intente adivinar cualquiera de las 10 palabras ya predefinidas.
