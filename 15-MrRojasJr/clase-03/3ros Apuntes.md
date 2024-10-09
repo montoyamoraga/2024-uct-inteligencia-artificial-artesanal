@@ -12,7 +12,8 @@
 
 ## Código de "entrenamiento de red neuronal para regresión" - Generar cambios en una imagen en base a lo que ve - Proceso de actualizar código de Andreas Refsgaard en ml5.js 
 Extraído de "Mr Beast regression" <https://ml5-fellowship-2020.github.io/examples/>
-```
+
+```javascript
 
 /*
 Mr Bean regression
