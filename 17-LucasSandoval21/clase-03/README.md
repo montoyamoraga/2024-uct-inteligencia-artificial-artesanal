@@ -73,5 +73,6 @@ backtick
 </html>
 ```
 
+``` nueva funcion de triple ` ```
 
 ## Proceso de actualizar un ejemplo de Andreas Refsgaard
