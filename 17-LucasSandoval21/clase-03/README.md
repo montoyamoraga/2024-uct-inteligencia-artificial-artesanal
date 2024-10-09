@@ -28,4 +28,6 @@ p5.js
 
 ctrl + a "Seleccionar todo"
 
+backtick
+
 ## Proceso de actualizar un ejemplo de Andreas Refsgaard
