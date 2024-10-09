@@ -1,11 +1,11 @@
 # clase-03
 ## Referentes 
 * Gene Kogan: Matemático, trabaja un lenguaje entre programacion y artes.
-  <https://genekogan.com/>
+* <https://genekogan.com/>
 * Andreas Refsgaard: artista digital, diseñador, trabajo en openframeworks
-  <https://www.andreasrefsgaard.dk/>
+* <https://www.andreasrefsgaard.dk/>
 * Rafael Lozano: "la IA es una herramienta que solo deberian ocupar los artistas"
-  <https://medium.com/processing-foundation/from-simple-to-advanced-ml5-js-70d6730b360b>
+* <https://medium.com/processing-foundation/from-simple-to-advanced-ml5-js-70d6730b360b>
 
 ## Apuntes generales
 * School of Machines, cursos breves de contenido poco comun
@@ -16,6 +16,9 @@
 * YOLO: algoritmo lector de imagenes
 
 ## Ejercicio en clases
+Proceso de actualizar un ejemplo de Andreas Refsgaard
+Ejemplo de Mr Bean Regression disponible en <https://editor.p5js.org/AndreasRef/sketches/4K_YGuMik>
+
 ```
 /*
 Mr Bean regression
@@ -147,13 +150,22 @@ function gotResults(err, result) {
   }
 }
 ```
+Antes de comenzar a entrenar el algoritmo, se hicieron algunas modificaciones del software, y asi tener una version mas actualizada.
 
+* Paso 1: tapar la camara, ubicar a Mr Bean al lado izquierdo de la pantalla
 ![Entrenando el algoritmo](muestra1.jpg)
+
+* Paso 2: mostrarme a mi, ubicar a Mr Bean al centro de la pantalla
 ![Entrenando el algoritmo](muestra2.jpg)
+
+* Paso 3: mostrar una botella, ubicar a Mr Bean al lado derecho de la pantalla
 ![Entrenando el algoritmo](muestra3.jpg)
 
+Finalmente comerzar a predecir con la camara web encendida, si el algoritmo logra reconocer al software entrenado.
 
 ## Terminos y simbologia
 * uft-8 Sistema de unificacion de todos los caracteres del mundo
 * Backtick, se puede agregar JavaScript o html, depende del codigo
 * ctrl + A Copiar todo
+
+
