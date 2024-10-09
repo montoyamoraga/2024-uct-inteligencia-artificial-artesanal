@@ -47,7 +47,7 @@ Para las voces se utilizaron las voces de Wladimir y mías además de otras gene
 
 Una vez entrenado el modelo de Teachable Machine se extrajo su código en formato JavaScript y pj5.js
 
-A continuación el código en JavaScript
+A continuación el código en JavaScript:
 
 ```javascript
 <div>Teachable Machine Audio Model</div>
@@ -112,7 +112,7 @@ A continuación el código en JavaScript
 
 ```
 
-y en p5.js
+y en p5.js:
 
 ```javascript
 <div>Teachable Machine Audio Model - p5.js and ml5.js</div>
