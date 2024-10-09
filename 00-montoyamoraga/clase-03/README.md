@@ -4,10 +4,9 @@ miércoles 09 octubre 2024
 
 09am-01pm
 
-## artista
+## artistas
 
-gene kogan
+* gene kogan <https://genekogan.com/>
+* andreas refsgaard <https://www.andreasrefsgaard.dk/>
 
-introducción a p5.js
 
-figuras 2D
