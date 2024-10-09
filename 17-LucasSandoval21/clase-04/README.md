@@ -7,4 +7,4 @@ Idea en parejas para mañana
 ```Movimiento de la camara = interaccion con las pelotas en movimiento```
 ```https://www.youtube.com/watch?v=MH03ZJaNe8A```
 
-Teachacble Machine
+Teachable Machine
