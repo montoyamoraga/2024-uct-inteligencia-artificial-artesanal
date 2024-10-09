@@ -3,7 +3,9 @@
 
 ## pruebas de algoritmos de la clase
 
-* <https://editor.p5js.org/montoyamoraga/sketches/Fy6d1rew6> 
+* <https://editor.p5js.org/montoyamoraga/sketches/Fy6d1rew6>
+
+[![video explicativo](https://raw.githubusercontent.com/pazdurann/2024-uct-inteligencia-artificial-artesanal/main/07-pazdurann/clase-03/capturaVideo.png)](https://raw.githubusercontent.com/pazdurann/2024-uct-inteligencia-artificial-artesanal/main/07-pazdurann/clase-03/Recorder_09102024_103740.mp4)
 
 ## referentes
 
@@ -27,6 +29,6 @@
 
 * You Only Look Once (YOLO)
 
-  ![foto de mi] 
+  
 
   
