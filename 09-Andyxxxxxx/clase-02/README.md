@@ -2,7 +2,7 @@
 
 clase 2 del workshop "Inteligencia Artifical Artesanal"
 
-## paginas clave
+## Paginas Clave
 
 * p5js.org
 * ml5js.org
