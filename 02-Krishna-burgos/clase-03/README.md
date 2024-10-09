@@ -3,14 +3,14 @@
 * ## Gene Kogan
   
 * Trabaja con codigos en el arte
-* Arpillera mirror, (2019) por Aarón Montoya, filtro y algoritmo
+* Arpillera mirror (2019) por Aarón Montoya, filtro y algoritmo
 * Transferencia de estilo
 * Material plastico y apropiarse
 * Obra gene y andreas
 * Algoritmo con webcam que es capaz de encontrar instrumentos y realizar los sonidos a través del dibujo
 * School of machines, diversos cursos
 * Gran parte de la insdustria sigue usando openframeworks
-* 
+  
 * ## Andreas Refsgaard
 * colección de memes
 * An algorithm watching a movie trailer
@@ -19,11 +19,13 @@
 * como hacer transfeencias de estilo, como hacer desde un boceto a una imagen
   * ml5.js version nueva, para artistas
   * p5.js es una manera de decir processing
-  * 
+
+   
     ## páginas web
     * <https://medium.com/processing-foundation/from-simple-to-advanced-ml5-js-70d6730b360b>
     * <https://genekogan.com/>
     * <https://editor.p5js.org/AndreasRef/sketches/4K_YGuMik>
+
     
 
 ## Proceso de actualizar un ejemplo de Andreas Refsgaard
@@ -32,6 +34,7 @@
   * Galería de ejemplos en <https://ml5-fellowship-2020.github.io/examples/>
  
   * Ejemplo de Mr. Bean en <https://editor.p5js.org/AndreasRef/sketches/4K_YGuMik>
+    
 
      ```javascript
 
@@ -45,9 +48,10 @@ Built with regression model from ml5js and p5js
 Created by Andreas Refsgaard 2020
 
 Original idea by @heynthn at CIID Summer School 2017: 
-https://www.instagram.com/p/BXDrDCblRvL/
+<https://www.instagram.com/p/BXDrDCblRvL/>
 
-Original video source: https://www.youtube.com/watch?v=HCfrKGrjI2g
+Original video source: <https://www.youtube.com/watch?v=HCfrKGrjI2g>
+
 */
 
 let featureExtractor;
@@ -164,7 +168,79 @@ function gotResults(err, result) {
     predict();
   }
 }
+
 ```
+ahora está el archivo index.html que es la web
+
+```html
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Image Regression using Feature Extraction with MobileNet. Built with p5.js</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <h3>Train a Neural Network to do regression</h3>
+  <div id="videoContainer"></div>
+  <h6><span id="modelStatus">Loading base model...</span> | <span id="videoStatus">Loading video...</span></h6>
+  <p>
+    <input type="range" name="slider" id="slider" min="0.01" max="1.0" step="0.01" value="0.5">
+  </p>
+  <br>
+  <p>
+    <button id="addSample">Add Sample</button>
+    <p><span id="amountOfSamples">0</span> Sample Images</p>
+  </p>
+
+  <br/>
+  <p><button id="train">Train</button><span id="loss"></span></p>
+  <p>
+    <button id="buttonPredict">Start predicting!</button>
+    <button id="buttonStopPredict">Stop predicting!</button><br>
+  </p>
+  
+  <button id="save">Save</button> 
+  <label for="avatar">Load Model:</label>
+  <input type="file" id="load" multiple/>
+  <br>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
+
+```
+
+este software hoy en 2024 no funciona así tal cual, por esta línea
+
+```html
+<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+```
+
+esta línea descarga la versión más actualizada de ml5.js, pero este software es del 2020 cuando la biblioteca ml5.js estaba en sus versiones 0.x.x, ahora en 2024 está en 1.x.x.
+
+para cambiar esto, reemplazamos esta línea, por esta
+
+```html
+<script src="https://unpkg.com/ml5@0.12.2/dist/ml5.min.js"></script>
+```
+
+el otro cambio es que hicimos, es que aquí en Temuco estamos trabajando con celulares, y cuando corremos el código, no vemos la captura de video, entonces modificamos la línea de código que hace el video.
+
+```javascript
+image(video, 3 * width / 4, 3 * height / 4, width / 4, height / 4);
+```
+
+y la cambiamos por esta
+
+```javascript
+image(video, 0 * width / 4, 0 * height / 4, width / 4, height / 4);
+```
+
 
 ![captura prueba de algoritmo](./capturaPrueba.webp)
 
