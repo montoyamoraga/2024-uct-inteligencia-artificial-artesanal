@@ -11,3 +11,7 @@ martes 08 octubre 2024
 rebecca fiebrink, creadora de wekinator <https://wekinator.org/>
 
 daniel shiffman, autor del libro the nature of code y creador del canal the coding train <https://thecodingtrain.com/>
+
+## ejemplo de pantallazo
+
+![imagen de don francisco con FaceMesh](./pantallazo.png)

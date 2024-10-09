@@ -1,25 +1,20 @@
 # clase-03
 
-#Inteligencia Artificial Artesanal
+## Referentes
 
-# Apuntes
+* Gene Kogan. Ingeniero en máquinas transformado en artista. <https://genekogan.com>
+* Rafael Lozano-Hemmer. Artista, posee la visión de que la I.A. "solo debe ser utilizada por artistas" (La I.A. engrupe, no es exacta, pese a ser también proveniente de una computadora)
+* Andreas Refsgaard. de su página se ve su portfolio. De sus obras está "ml4a", colección de textos que enseña "Machine learning for artists"<https://www.andreasrefsgaard.dk>
+* School of Machines. Escuela de Berlín
+* OpenFrameworks, lenguaje de programación para instalaciones visuales de "alta complejidad" pero potente.
+* YoLo V2, modelo de detección de objetos.
 
-  * Gene Kogan <https://genekogan.com/>
-  * Andreas Refsgaard <https://www.andreasrefsgaard.dk/>
-  * Espejo Mosaico
-  * Arpillera Mirror
-  * Rafael Lozano Hemmer
-  * School of Machines
-  * Openframeworks
-  * YOLO AI
-  * ML4a.net
-  * Backtick
-  * De ml5.js simple a avanzado
-  * Entrevista a Andreas Refsgaard, becario ml5.js 2020
 
-## Comando Mr Bean
+## Código de "entrenamiento de red neuronal para regresión" - Generar cambios en una imagen en base a lo que ve - Proceso de actualizar código de Andreas Refsgaard en ml5.js 
+Extraído de "Mr Beast regression" <https://ml5-fellowship-2020.github.io/examples/>
 
-```
+```javascript
+
 /*
 Mr Bean regression
 
@@ -73,7 +68,7 @@ function setup() {
 
 function draw() {
   image(images[currentImage], 0, 0, width, height);
-  image(video, 0 * width / 4, 0 * height / 4, width / 4, height / 4);
+  image(video, 3 * width / 4, 3 * height / 4, width / 4, height / 4);
   noStroke();
   fill(255, 0, 0, 100);
   currentImage = constrain(floor((1 - slider.value()) * nImages), 0, nImages - 1);
@@ -149,4 +144,9 @@ function gotResults(err, result) {
     predict();
   }
 }
-```
+
+ ```
+
+2024, el código no funciona. Para usarlo se "modificó el código", 
+
+![foto](./
