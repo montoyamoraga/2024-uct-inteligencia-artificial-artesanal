@@ -73,16 +73,15 @@ function draw() {
 
 * El código debería de crear un Canva con una circunferencia (elípse) en movimiento.
 * background usa el código de color RGB.
-* Símbolos {, }  dan un comienzo y un final a una línea de código.
-* Símbolo ; se aplica al final de cada comando.
-* comando "console.log" abre la lectura de la consola, que explica de manera detallada lo programado.
-* Símbolo // aplica para "generar notas" dentro del código. Esto ya que // le dice al lenguaje de programación que "lo siguiente no existe/no lo tomes en cuenta".
-* NO BORRES EL CÓDIGO, lo mejor que puedes hacer es "reciclarlo" usando // y que el comando en deshuso sirva como referencia.
+* { }  dan un comienzo y un final a una línea de código.
+* ; se aplica al final de cada comando.
+* = en JavaScript significa que " A posee el valor de B"
+* // aplica para "generar notas" dentro del código. Esto ya que // le dice al lenguaje de programación que "lo siguiente no existe/no lo tomes en cuenta".
 * comando let da propiedad a palabras/comandos.
-* Símbolo = en JavaScript significa que " A posee el valor de B"
+* "console.log" abre la lectura de la consola, que explica de manera detallada lo programado.
+* NO BORRES EL CÓDIGO, lo mejor que puedes hacer es "reciclarlo" usando // y que el comando en deshuso sirva como referencia.
 * Los valores no son solo números, pueden asignársele otros comandos (como los hechos con let)
 * Sufijo .png/.jpg etc. son el tipo de programa o lectura que dicho sujeto tiene.
-* 
 * Si el código es abierto, puedes copiar y pegar a conveniencia.
 * Si el código pareciera "raro"/"malo" pero funciona, no toques el código.
 
