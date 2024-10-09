@@ -15,6 +15,10 @@ MARTES
 
 <https://ml4a.net/>
 
+<https://freesound.org/>
+
+<https://teachablemachine.withgoogle.com/>
+
 * Referentes
   
 Gene Kogan <https://genekogan.com/>
