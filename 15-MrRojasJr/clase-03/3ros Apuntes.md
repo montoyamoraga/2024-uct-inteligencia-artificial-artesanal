@@ -204,13 +204,13 @@ para cambiar esto se reemplaza la línea anterior por la siguiente (En HTML):
 ```html
 <script src="https://unpkg.com/ml5@0.12.2/dist/ml5.min.js"></script>
 ```
-El otro cambio que se hizo es que aquí en Temuco estamos trabajando con celulares, y cuando corremos el código, no vemos la captura de video. Entonces modificamos la línea de código que hace el video (En JavaSscript)
+El otro cambio que se hizo es que aquí en Temuco estamos trabajando con celulares, y cuando corremos el código, no vemos la captura de video. Entonces modificamos la línea de código que hace el video y modificamos su ubicación (En JavaSscript):
 
 ```javascript
 image(video, 3 * width / 4, 3 * height / 4, width / 4, height / 4);
 ```
 
-Y se modifica por ésta:
+Y se modifica por ésta (Lo que hace es cambiar el ángulo de la cámara para que se ajuste mejor a la página):
 ```javascript
 image(video, 0 * width / 4, 0 * height / 4, width / 4, height / 4);
 ```
