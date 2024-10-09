@@ -10,3 +10,5 @@ Idea en parejas para mañana
 Teachable Machine
 
 p5play ex5ample modificado
+
+Para la base de datos, buscar una imagen/Herramienta relacionado con la carrera de Diseño
