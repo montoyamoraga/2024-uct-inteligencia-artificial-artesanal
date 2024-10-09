@@ -21,7 +21,7 @@ En programación el signo = no es "es igual a..." sinó que "la variable que est
 Puedes reemplazar valores numéricos con comandos (ver ejemplo de ellipse(posicionX, 375, 50, 50) ) 
 
 ## Código aplicado (JavaScript)
-`
+```
 let posicionX;
 
 let posicionY;
@@ -66,7 +66,7 @@ function draw() {
     
   
 }
-`
+```
 
 
 ## Apuntes
