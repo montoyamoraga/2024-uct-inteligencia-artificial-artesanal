@@ -147,6 +147,88 @@ function gotResults(err, result) {
 
  ```
 
-2024, el código no funciona. Para usarlo se "modificó el código", 
+Pasamos a la versión HTML del código.
+```html
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Image Regression using Feature Extraction with MobileNet. Built with p5.js</title>
 
-![foto](./
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <h3>Train a Neural Network to do regression</h3>
+  <div id="videoContainer"></div>
+  <h6><span id="modelStatus">Loading base model...</span> | <span id="videoStatus">Loading video...</span></h6>
+  <p>
+    <input type="range" name="slider" id="slider" min="0.01" max="1.0" step="0.01" value="0.5">
+  </p>
+  <br>
+  <p>
+    <button id="addSample">Add Sample</button>
+    <p><span id="amountOfSamples">0</span> Sample Images</p>
+  </p>
+
+  <br/>
+  <p><button id="train">Train</button><span id="loss"></span></p>
+  <p>
+    <button id="buttonPredict">Start predicting!</button>
+    <button id="buttonStopPredict">Stop predicting!</button><br>
+  </p>
+  
+  <button id="save">Save</button> 
+  <label for="avatar">Load Model:</label>
+  <input type="file" id="load" multiple/>
+  <br>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
+
+```
+
+2024, el código no funciona y es debido a ésta línea (HTML):
+
+```html
+<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+```
+
+Si bien ésta línea descarga la versión más actualizada de ml5.js, este software es del 2020 cuando la biblioteca ml5.js estaba en sus versiones 0.x.x, ahora en 2024 está en 1.x.x.
+
+para cambiar esto se reemplaza la línea anterior por la siguiente (En HTML):
+
+```html
+<script src="https://unpkg.com/ml5@0.12.2/dist/ml5.min.js"></script>
+```
+El otro cambio que se hizo es que aquí en Temuco estamos trabajando con celulares, y cuando corremos el código, no vemos la captura de video. Entonces modificamos la línea de código que hace el video y modificamos su ubicación (En JavaSscript):
+
+```javascript
+image(video, 3 * width / 4, 3 * height / 4, width / 4, height / 4);
+```
+
+Y se modifica por ésta (Lo que hace es cambiar el ángulo de la cámara para que se ajuste mejor a la página):
+```javascript
+image(video, 0 * width / 4, 0 * height / 4, width / 4, height / 4);
+```
+
+[Captura demostración Código + aplicación](Captura1.png)
+
+
+## Anotaciones
+
+* GPU hacen calculos el triple de rápidos que una CPU. la 1ra es dedicada a aspectos gráficos. la CPU hoy en día fue la que se utiliza para la creación de la I.A.. Hoy en día se están haciendo las TPU, exclusivas para I.A., si la CPU trabaja 1 a 2 números a la vez, la GPU 3 a 4 y la TPU muchos más. Hablamos de tensores, que son conjuntos de datos.
+* TensorFlow (Software web)
+* Teachable Machine (Software web)
+
+## De camino al proyecto de Workshop
+
+Con el compañero de Arquitectura Wladimir y quién escribe, Manuel Rojas, pimponeamos ideas respecto de qué realizar y programar. 
+Con lo anterior se presentan las siguientes ideas:
+* Identificador de emociones faciales, y que en base a eso se genere deformaciones en el ambiente, ya sea color, forma. Pueden ser Alegría, Enojo y sorpresa y en base a aquello generar la reacción.
+* Identificador de emociones faciales que al detectar una emoción, refleje en el rostro de la persona la emoción contraria.
+* Comité de belleza - Aesthetic. En base a las prendas de las personas, generar una "medida estandarizada" respecto de qué tan aesthetic o qué tan estétitca es aquella prenda.
+* Comité de desfile. En base a las poses de la persona, generar un "Puntaje" de "estilo de pose"/"modelaje" de la persona. Otra opción es que en vez de puntaje diga un tipo de "corriente" de estilo (físicocultismo, moda, dragg, ballet, militar, etc.)
