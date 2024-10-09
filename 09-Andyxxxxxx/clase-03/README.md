@@ -159,6 +159,6 @@ function gotResults(err, result) {
 ![Captura de pantalla (40)](https://github.com/user-attachments/assets/11e0ad4a-b029-4640-be46-91df2af20f16)
 
 
-![foto de mi](file:///C:/Users/andre/Downloads/profe.webp)
+![foto](/profe.webp)
 
 
