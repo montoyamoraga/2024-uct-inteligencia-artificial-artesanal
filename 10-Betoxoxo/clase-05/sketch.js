@@ -97,6 +97,11 @@ async function predict() {
     else if (numeroDerecha > 0.5) {
       paraDerecha();
     }
+     if(paraArriba > width - anchoX/2) {
+  direccion = -5;
+    else if (paraAbajo < 0 + anchoX/2) {
+    direccion = 5    
+  }
   }
 
   // finally draw the poses
