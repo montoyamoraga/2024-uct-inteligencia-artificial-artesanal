@@ -1,8 +1,6 @@
 # clase-04
 ## bitácora miércoles en la tarde 09-10-2024 
 
-Comenzamos a probar teachable machine (tm) para la creacion de una base de datos mediante el proyecto de posturas, y asi poder crear un algoritmo capaz de reconocer pasos de baile de una canción y la letra a la que pertenece cada pose.
-
 ## apuntes y links
 
 * k nearest neighbor
@@ -13,4 +11,14 @@ Comenzamos a probar teachable machine (tm) para la creacion de una base de datos
 * <https://teachablemachine.withgoogle.com/train/pose>
 * <https://htmlcolorcodes.com/>
 * <https://p5js.org/reference/>
+
+## primeras pruebas de teachable machine
+
+Comenzamos a probar teachable machine (tm) para la creación de una base de datos mediante el proyecto de posturas, y así poder crear un algoritmo capaz de reconocer pasos de baile de una canción y la letra a la que pertenece cada pose.
+
+Para la primera prueba utilizamos la primera mitad de la canción Poker Face de Lady Gaga, logrando un modelo final y 15 samples diferentes, a continuación los archivos de cada sample y el modelo:
+
+
+
+
 
