@@ -38,7 +38,7 @@ Una vez recibimos ayuda y guía del profesor Aaron Montoya, nos arregló el prob
 
 Los cambios que hizo fue agregar una variable o "let" y que en resumen fueron mucho más sencillo que las líneas de código antes intendadas:
 
-```
+```javascript
 function draw() {
   //background(0);
   
@@ -57,7 +57,7 @@ function draw() {
 ````
 Además ayudó a corregir el reajuste de texto, que si bien estaba hecho de manera manual usando valores numéricos, el profesor usó comandos directos con el alto y el ancho, además de multiplicaciones y divisiones del espacio que ajustaba de manera automática la posición del texto:
 
-```
+```javascript
 function setup() {
   createCanvas(windowWidth, windowHeight);
   // Start classifying
@@ -116,3 +116,4 @@ function draw() {
   
 
 ```
+Finalmente, estamos viendo cómo colocar nuestra "firma" y autoría dentro del código, probablemente será un pequeño detalle que ajustaremos en el último día del Workshop, listos ya para la isntalación.
