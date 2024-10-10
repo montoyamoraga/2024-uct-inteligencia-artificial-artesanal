@@ -20,7 +20,7 @@ Dentro de lo que son las líneas de código y todo lo que es programación, evit
 
 3. A continuación, el código en formato p5.js
 
-   ```javascript
+```javascript
 <div>Teachable Machine Audio Model - p5.js and ml5.js</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
@@ -69,6 +69,7 @@ function gotResult(error, results) {
   label = results[0].label;
 }
 </script>
-   ```
+
+```
 
 
