@@ -114,14 +114,43 @@ function drawPose(pose) {
     }
   }
 }
-
 function setup() {
-  createCanvas(1500, 1500);
-  background(255, 0, 0)
-
+  createCanvas(windowWidth, windowHeight);
+  posicionX = 100;
+  posicionY = 100;
+  velocidad = 5;
+  direccion = 5;
+  anchoX = 50;
+  anchoY = 50;
   
+  console.log("ancho:  " + windowWidth)
+  console.log("altura:  " + windowHeight)
 }
 
 function draw() {
-
+  background(50, 100, 100);
+  ellipse(posicionX, posicionY, anchoX, anchoY);
+  
+  posicionX = posicionX + direccion;
+  //posicionY = posicionY + direccion;
+  
+  console.log(posicionX);
+  
+  // cuando llegue al final del lienzo hacer que vuelva a aparecer
+  //if(posicionX > 373){
+  //posicionX = 0;
+    
+  if (posicionX > width - anchoX/2) {
+  direccion = -5;
+  }
+  else if (posicionX < 0 + anchoX/2) {
+    direccion = 5
+  }
+  
+  //console.log(posicionY);
+  //if (posicionY > height - anchoY/2) {
+   // direccion = -5;
+  //}
+    
+  
 }
