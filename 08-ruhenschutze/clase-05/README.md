@@ -28,12 +28,12 @@ donde el sol juega entre hojas calladas.
 No mires solo adelante, busca en tu andar,
 que la luz de la fe te invita a llegar.
 
+ruka
 Las paredes de barro, suaves como la tierra,
 guardan ecos de ancestros, susurros de viento,
 mientras el sol, dorado, acaricia su tejado,
 y las sombras juegan, danzando en el momento.
 
-ruka
 Aislada, apartada, entre edificios y sueños,
 esta se erige, un refugio del pasado,
 un canto a la memoria, a la raíz y la vida,
@@ -111,5 +111,85 @@ function draw() {
 
 function toggleText() {
   showText = !showText; // Cambiar el estado de showText
+}
+```
+save 2
+```
+let button1, button2, button3;
+let showText1 = false;
+let showText2 = false;
+let showText3 = false;// Variable para controlar la visibilidad del texto
+
+function setup() {
+  createCanvas(windowWidth, windowHeight); // Crear un lienzo que ocupa toda la pantalla
+  button1= createButton('Acertijo1'); // Crear el botón
+  button1.position(width / 6 - 60, height / 3 - 20); // Posición del botón
+  button1.mousePressed(toggleText1); // Asignar la función al presionar el botón
+  
+  button2= createButton('Acertijo2'); // Crear el botón
+  button2.position(width / 6 - 60, height / 5 - 20); // Posición del botón
+  button2.mousePressed(toggleText2); // Asignar la función al presionar el botón
+  
+  button3= createButton('Acertijo3'); // Crear el botón
+  button3.position(width / 6 - 60, height / 7 - 20); // Posición del botón
+  button3.mousePressed(toggleText3); // Asignar la función al presionar el botón
+}
+
+function draw() {
+  background(0, 0, 255); // Fondo azul
+  
+  if (showText1) { // Si showText es verdadero, dibuja el texto
+    fill(255); // Color del texto
+    textSize(24); // Tamaño del texto
+    textAlign(CENTER); // Alinear el texto al centro
+
+    // Texto en versos
+    text('¡Hola, este es el texto\n'
+         + 'desplegado en versos!\n'
+         + 'Cada línea es un suspiro,\n'
+         + 'cada palabra un abrazo.', 
+         width / 3, height / 4 + 40);
+ }
+   if (showText2) { // Si showText es verdadero, dibuja el texto
+    fill(255); // Color del texto
+    textSize(24); // Tamaño del texto
+    textAlign(CENTER); // Alinear el texto al centro
+
+    // Texto en versos
+    text('¡Hola,asfasfsdf versos!\n'
+         + 'Cada línea es un suspiro,\n'
+         + 'cada palabra un abrazo.', 
+         width / 3, height / 4 + 40);
+ }
+  
+   if (showText3) { 
+    fill(255); // Color del texto
+    textSize(24); // Tamaño del texto
+    textAlign(CENTER); // Alinear el texto al centro
+
+    // Texto en versos
+    text('¡Hola,asfasfsdf versos!\n'
+         + 'Cada lísdgddfdnddsgdea es un suspiro,\n'
+         + 'cada palabra un abrazo.', 
+         width / 3, height / 4 + 40);
+ }
+}
+
+  function toggleText1() {
+  showText1 = !showText1; // Cambia la visibilidad del texto 1
+  showText2 = false;
+  showText3 = false;// Oculta el texto 2 si el 1 se muestra
+}
+
+function toggleText2() {
+  showText2 = !showText2; // Cambia la visibilidad del texto 2
+  showText1 = false;
+  showText3 = false;// Oculta el texto 1 si el 2 se muestra
+}
+
+function toggleText3() {
+  showText3 = !showText3; // Cambia la visibilidad del texto 2
+  showText2 = false;
+  showText1 = false;// Oculta el texto 1 si el 2 se muestra
 }
 ```
