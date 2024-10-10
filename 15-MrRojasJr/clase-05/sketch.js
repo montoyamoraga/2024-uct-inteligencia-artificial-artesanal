@@ -6,13 +6,14 @@ let classifier;
 let label = 'listening...';
 
 // Teachable Machine model URL:
-// let soundModel = './my_model/';
-let soundModel = 'my_model/';
+let soundModel = './my_model/';
 
 
 function preload() {
   // Load the model
-  classifier = ml5.soundClassifier(soundModel + 'model.json');
+  // classifier = ml5.soundClassifier(soundModel + 'model.json');
+  classifier = ml5.soundClassifier('https://raw.githubusercontent.com/montoyamoraga/2024-uct-inteligencia-artificial-artesanal/refs/heads/main/15-MrRojasJr/clase-05/my_model/model.json');
+  
 }
 
 function setup() {
