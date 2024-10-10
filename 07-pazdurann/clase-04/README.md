@@ -18,41 +18,41 @@ Comenzamos a probar teachable machine (tm) para la creación de una base de dato
 
 Para la primera prueba utilizamos la primera mitad de la canción Poker Face de Lady Gaga, logrando un modelo final y 15 samples diferentes, a continuación los archivos de cada sample y el modelo:
 
-* samples:
+* Samples:
 
-iwannaholdem-samples.zip
+![samples de prueba](./iwannaholdem-samples.zip)
+ 
+![samples de prueba](.liketheydointexas-samples.zip)
 
-liketheydointexas-samples.zip
+![samples de prueba](.please-samples.zip)
 
-please-samples.zip
+![samples de prueba](.foldem-samples.zip)
 
-foldem-samples.zip
+![samples de prueba](.letemhitme-samples.zip)
 
-letemhitme-samples.zip
+![samples de prueba](.raisetit-samples.zip)
 
-raisetit-samples.zip
+![samples de prueba](.babystaywithme-samples.zip)
 
-babystaywithme-samples.zip
+![samples de prueba](.iloveit-samples.zip)
 
-iloveit-samples.zip
+![samples de prueba](.lovegameintuition-samples.zip)
 
-lovegameintuition-samples.zip
+![samples de prueba](.playthecardswithspadestostart-samples.zip)
 
-playthecardswithspadestostart-samples.zip
+![samples de prueba](.andafterhisbeenhooked-samples.zip)
 
-andafterhisbeenhooked-samples.zip
+![samples de prueba](.illplaytheonethstsonhisheart-samples.zip)
 
-illplaytheonethstsonhisheart-samples.zip
+![samples de prueba](.ohohohohohohoh-samples.zip)
 
-ohohohohohohoh-samples.zip
+![samples de prueba](.illgethimhot-samples.zip)
 
-illgethimhot-samples.zip
+![samples de prueba](.showhimwhativegot-samples.zip)
 
-showhimwhativegot-samples.zip
-
-* modelo:
+* Modelo:
   
-my-pose-model.zip
+![samples de prueba](.my-pose-model.zip)
 
 
 
