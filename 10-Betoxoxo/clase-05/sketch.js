@@ -116,14 +116,9 @@ function drawPose(pose) {
 }
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(700, 700);
   background(255, 0, 0)
-  posicionX = 100;
-  posicionY = 100;
-  velocidad = 5;
-  direccion = 5;
-  anchoX = 50;
-  anchoY = 50;
+
   
 }
 
