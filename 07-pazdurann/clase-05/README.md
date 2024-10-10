@@ -3,3 +3,13 @@
 
 Comenzamos probando los samples de prueba del día miércoles para demostrar la ambigüedad de las poses por sample, lo que resulta en que el algoritmo de Teachable Machine no es capaz de reconocer al 100% la mayoria de las poses y las confunde con otras, por lo tanto decidimos cambiar a otra canción, trabajando solo en el coro, además de reducir la cantidad de samples para que el algoritmo sea capaz de ser más exacto.
 
+## Coro canción: hot to go de Chappel Roan
+
+H-O-T-T-O-G-O
+
+You can take me hot to go
+
+H-O-T-T-O-G-O
+
+You can take me hot to go
+
