@@ -1,7 +1,10 @@
 # clase-06
 CIRUGIA AL MODELO
 
-mejorando la funcionabilidad
+mejorando el evento 
+
+## Nombre proyecto  ¡¡¡ says faadmily!!! 
+
 
 ´´´ javacript
 
