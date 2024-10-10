@@ -99,11 +99,13 @@ function gotResult(error, results) {
   classifyVideo();
 }
 ```
-## trata de
+##  como funciona 
 
 reconoce dos colores en especifico, los cuales serian:
 - verde
 - cafes
-  u otros colores pero lo mas importab tes sob los mencionados anteriormente.
+  u otros colores pero lo mas importantes son los mencionados anteriormente.
+  ya que son colores que se puededen encontar en la mayoria de localidades. 
 
-  aparecera una imagen cuando se muestre el cafe u/o verde, fotos tomadas de una parte del campus norte de la uct
+ aparecera una imagen cuando se muestre el cafe u/o verde, se mostrara en la pantalla.
+ las fotos son  tomadas de una parte del campus norte de la uct.
