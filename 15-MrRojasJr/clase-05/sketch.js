@@ -3,7 +3,7 @@
 let classifier;
 
 // Label
-let label = 'listening...';
+let label = 'escuchando...';
 
 // Teachable Machine model URL:
 let soundModel = './my_model/';
