@@ -1,5 +1,6 @@
 # clase-04
 ## Idea proyecto
+*  Este proyecto trata crear un algoritmo capaz de reconocer pasos de baile y a la letra de la canción a la que pertenecen 
 * Crear un proyecto interactivo con el cuerpo, la musica y la letra
   ## Páginas web
 <https://teachablemachine.withgoogle.com/train>
