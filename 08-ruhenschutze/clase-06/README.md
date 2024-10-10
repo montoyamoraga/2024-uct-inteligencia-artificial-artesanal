@@ -16,5 +16,5 @@ Recolectamos alrededor de 100 fotos para cada caso:
 ![foto de mi](./imaged411.webp)
 
 
-Ocupamos el codigo que nos arrojo teach hable, este lo pusimos en el nuestro distinguiendo lo que estaba escrito en otro lenguaje de programacion y eliminando lineas de codio redundantes o que no aportaban nada:
+Ocupamos el codigo que nos arrojo teach hable sobre nuestra base de datos, este lo pusimos en el nuestro distinguiendo lo que estaba escrito en otro lenguaje de programacion y eliminando lineas de codio redundantes o que no aportaban nada:
 ![foto de mi](./imaged47.webp)
