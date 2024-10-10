@@ -99,3 +99,11 @@ function gotResult(error, results) {
   classifyVideo();
 }
 ```
+## trata de
+
+reconoce dos colores en especifico, los cuales serian:
+- verde
+- cafes
+  u otros colores pero lo mas importab tes sob los mencionados anteriormente.
+
+  aparecera una imagen cuando se muestre el cafe u/o verde, fotos tomadas de una parte del campus norte de la uct
