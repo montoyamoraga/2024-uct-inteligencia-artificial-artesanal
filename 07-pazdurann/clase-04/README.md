@@ -18,6 +18,8 @@ Comenzamos a probar teachable machine (tm) para la creación de una base de dato
 
 Para la primera prueba utilizamos la primera mitad de la canción Poker Face de Lady Gaga, logrando un modelo final y 15 samples diferentes, a continuación los archivos de cada sample y el modelo:
 
+* samples:
+
 iwannaholdem-samples.zip
 
 liketheydointexas-samples.zip
@@ -36,22 +38,26 @@ iloveit-samples.zip
 
 lovegameintuition-samples.zip
 
+playthecardswithspadestostart-samples.zip
 
 andafterhisbeenhooked-samples.zip
 
-
-illgethimhot-samples.zip
 illplaytheonethstsonhisheart-samples.zip
 
-
-
-
-my-pose-model.zip
 ohohohohohohoh-samples.zip
-playthecardswithspadestostart-samples.zip
 
+illgethimhot-samples.zip
 
 showhimwhativegot-samples.zip
+
+* modelo:
+  
+my-pose-model.zip
+
+
+
+
+
 
 
 
