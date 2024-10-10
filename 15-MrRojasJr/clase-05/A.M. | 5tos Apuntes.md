@@ -72,4 +72,91 @@ function gotResult(error, results) {
 
 ```
 
+Ahora el código arreglado (agradecimientos al profesor encargado Aaron Montoya)
+
+Apartado HTML:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.12.2/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <main>
+    </main>
+    <script src="sketch.js"></script>
+  </body>
+</html>
+
+```
+
+Apartado JavaScript
+
+```javascript
+
+  // Global variable to store the classifier
+let classifier;
+
+// Label
+let label = 'escuchando...';
+
+// Teachable Machine model URL:
+let soundModel = './my_model/';
+
+
+function preload() {
+  // Load the model
+  // classifier = ml5.soundClassifier(soundModel + 'model.json');
+  classifier = ml5.soundClassifier('https://raw.githubusercontent.com/montoyamoraga/2024-uct-inteligencia-artificial-artesanal/refs/heads/main/15-MrRojasJr/clase-05/my_model/model.json');
+  
+}
+
+function setup() {
+  createCanvas(320, 240);
+  // Start classifying
+  // The sound model will continuously listen to the microphone
+  classifier.classify(gotResult);
+}
+
+function draw() {
+  background(0);
+  // Draw the label in the canvas
+  fill(255);
+  textSize(32);
+  textAlign(CENTER, CENTER);
+  text(label, width / 2, height / 2);
+}
+
+
+// The model recognizing a sound will trigger this event
+function gotResult(error, results) {
+  if (error) {
+    console.error(error);
+    return;
+  }
+  // The results are in an array ordered by confidence.
+  // console.log(results[0]);
+  label = results[0].label;
+}
+```
+
+Apartado style.css
+
+```css
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas {
+    display: block;
+  }
+  ```
+
 
