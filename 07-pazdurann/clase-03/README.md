@@ -1,5 +1,12 @@
 # clase-03
+
 ## bitácora miercoles 09-10-2024
+
+## pruebas de algoritmos de la clase
+
+* <https://editor.p5js.org/montoyamoraga/sketches/Fy6d1rew6>
+
+[![video explicativo](https://raw.githubusercontent.com/pazdurann/2024-uct-inteligencia-artificial-artesanal/main/07-pazdurann/clase-03/capturaVideo.png)](https://raw.githubusercontent.com/pazdurann/2024-uct-inteligencia-artificial-artesanal/main/07-pazdurann/clase-03/Recorder_09102024_103740.mp4)
 
 ## referentes
 
@@ -243,14 +250,3 @@ para entrenar este algoritmo, usé imágenes, de mí, de mi mano abriendo y cerr
  ![imagen explicativa de prueba](./capturaPantallaDePrueba.png)
 
  ![video explicativo de prueba](./Recorder_09102024_103740.mp4)
-
-
-
-
-
- 
- 
-
-  
-
-  
