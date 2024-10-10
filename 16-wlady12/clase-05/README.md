@@ -14,6 +14,11 @@ WORKING PROGRESS
 * Desvelo 😴 😴 😴
 
  grabacion de palabras para clasificar informacion e iniciar con la base de datos en teanchable machine https://teachablemachine.withgoogle.com/train/audio
+![foto de mi](./capturapantalla_ grabacionaudio.png)
+
+codigo de audio
+
+```javascript
 
  <div>Teachable Machine Audio Model - p5.js and ml5.js</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
@@ -63,3 +68,4 @@ function gotResult(error, results) {
   label = results[0].label;
 }
 </script>
+```
