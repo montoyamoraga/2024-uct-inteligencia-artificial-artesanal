@@ -16,3 +16,5 @@
 * Acostado
 * Sorpresa (brazos levantados)
 * Sentado (en base a una silla)
+
+este proyecto está vivo aquí <https://montoyamoraga.github.io/2024-uct-inteligencia-artificial-artesanal/09-Andyxxxxxx/clase-05>
