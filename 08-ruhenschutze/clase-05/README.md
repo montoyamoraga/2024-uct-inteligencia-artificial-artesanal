@@ -377,7 +377,7 @@ Le metimos los poemas al codigo
 
 ![foto de mi](./imaged44.webp)
 
-save antes de poner lo de las fotos
+save antes de aplicarle teachable machine
 ```js
 let video;
 let button1, button2, button3, button4,button5,button6;
