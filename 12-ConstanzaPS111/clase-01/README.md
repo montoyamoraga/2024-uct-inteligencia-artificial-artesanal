@@ -128,3 +128,18 @@ function gotResults(err, result) {
 * https://teachablemachine.withgoogle.com/train?action=onboardOpen&id=DFBbSTvtpy4
 * https://freesound.org/home/login/
 
+# IDEA DE TRABAJO
+
+TRABAJO EN CONJUNTO CON CATALINA CONCHA
+
+Al pestañear frases caen de los ojos, como si literalmente el sujeto hablara con la mirada. Sería bueno si, al pestañear, las frases fueran diferentes según la expresión facial que tenga la persona.
+
+v
+
+
+Simplificar a algo más simple como que con solo pestañear caigan las palabras de un escrito especifico. Como referencia la obra de Andreas Refsgaard "Words from another mouth"
+https://netlitteratur.dk/ordfraenandensmund/
+
+
+
+
