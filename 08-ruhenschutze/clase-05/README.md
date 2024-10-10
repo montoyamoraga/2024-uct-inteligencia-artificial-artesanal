@@ -1,6 +1,6 @@
 # clase-05
 Ocupamos chat gpt para hacer los acertijos con forma de poema para cada cosa/lugar.
-![foto de mi](./image2.webp)
+![foto de mi](./imaged41.webp)
 
 cosas que añadir a la app:
 calistenia
@@ -91,7 +91,9 @@ el tiempo se detiene, la vida se levanta,
 un pequeño paraíso, un rincón escondido,
 donde el corazón encuentra su sentido.
 
-idea1 codigo
+idea 1 codigo
+Ocupamos chatgpt tambien para tener una base sobre la cual hacer nuestro programa
+![foto de mi](./imaged42.webp)
 
 ```js
 let button;
@@ -203,6 +205,7 @@ function toggleText3() {
   showText1 = false;// Oculta el texto 1 si el 2 se muestra
 }
 ```
+![foto de mi](./imaged43.webp)
 save con todos los botones+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ```js
 let button1, button2, button3, button4,button5,button6;
@@ -370,6 +373,10 @@ function toggleText6() {
   showText1 = false;// Oculta el texto 2 si el 1 se muestra
 }
 ```
+Le metimos los poemas al codigo
+
+![foto de mi](./imaged44.webp)
+
 save antes de poner lo de las fotos
 ```js
 let video;
@@ -611,3 +618,4 @@ function toggleText6() {
   showText1 = false;// Oculta el texto 2 si el 1 se muestra
 }
 ```
+
