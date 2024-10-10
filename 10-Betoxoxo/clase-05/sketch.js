@@ -32,7 +32,21 @@ function paraDerecha() {
   console.log("paraDerecha");
 }
 
+function ellipseArriba() {
+  direccion = 5
+}
 
+function ellipseAbajo() {
+  direccion = 5
+}
+
+function ellipseIzquierda() {
+  direccion = 5
+}
+
+function ellipseDerecha() {
+  direccion = 5
+}
 async function init() {
   const modelURL = URL + "model.json";
   const metadataURL = URL + "metadata.json";
@@ -87,6 +101,7 @@ async function predict() {
 
     if(numeroArriba > 0.5) {
       paraArriba();
+      ellipseArriba();
     }
     else if (numeroAbajo > 0.5) {
       paraAbajo();
@@ -97,11 +112,6 @@ async function predict() {
     else if (numeroDerecha > 0.5) {
       paraDerecha();
     }
-     if(paraArriba > width - anchoX/2) {
-  direccion = -5;
-    else if (paraAbajo < 0 + anchoX/2) {
-    direccion = 5    
-  }
   }
 
   // finally draw the poses
@@ -121,41 +131,16 @@ function drawPose(pose) {
 }
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  posicionX = 100;
-  posicionY = 100;
-  velocidad = 5;
-  direccion = 5;
-  anchoX = 50;
-  anchoY = 50;
-  
   console.log("ancho:  " + windowWidth)
   console.log("altura:  " + windowHeight)
+  
 }
 
 function draw() {
-  background(50, 100, 100);
+  background(255)
   ellipse(posicionX, posicionY, anchoX, anchoY);
-  
-  posicionX = posicionX + direccion;
-  //posicionY = posicionY + direccion;
-  
-  console.log(posicionX);
-  
-  // cuando llegue al final del lienzo hacer que vuelva a aparecer
-  //if(posicionX > 373){
-  //posicionX = 0;
-    
-  if (posicionX > width - anchoX/2) {
-  direccion = -5;
-  }
-  else if (posicionX < 0 + anchoX/2) {
-    direccion = 5
-  }
-  
-  //console.log(posicionY);
-  //if (posicionY > height - anchoY/2) {
-   // direccion = -5;
-  //}
+
+
     
   
 }
