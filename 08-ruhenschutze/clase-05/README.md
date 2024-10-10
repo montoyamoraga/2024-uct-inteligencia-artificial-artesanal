@@ -1,6 +1,7 @@
 # clase-05
-cosas que añadir a la app.
+cosas que añadir a la app:
 calistenia
+
 En el susurro del viento universitario,
 donde el sol dibuja sombras en la tierra,
 busca un rincón de cuerpos en movimiento,
@@ -12,6 +13,7 @@ una pista espera, con brazos de acero,
 un refugio de fuerza, donde el cuerpo se eleva.
 
 isla
+
 Busca el punto dorado, donde el cielo se rinde,
 y el agua se hace espejo, donde el misterio anide.
 No mires solo adelante, el pasado te guiará,
@@ -24,12 +26,14 @@ un refugio de calma, un rincón de ensueño,
 donde el alma se baña en su propio diseño.
 
 capilla
+
 Sigue el camino de piedras doradas,
 donde el sol juega entre hojas calladas.
 No mires solo adelante, busca en tu andar,
 que la luz de la fe te invita a llegar.
 
 ruka
+
 Las paredes de barro, suaves como la tierra,
 guardan ecos de ancestros, susurros de viento,
 mientras el sol, dorado, acaricia su tejado,
@@ -46,6 +50,7 @@ donde la cultura vive, entre el saber y el fuego,
 y la esencia mapuche se entrelaza en el mundo.
 
 virgen
+
 En un rincón donde el viento susurra,
 entre altos muros, su paz se asegura,
 una figura de gracia y ternura,
@@ -62,6 +67,7 @@ Escucha el silencio, y deja que hable,
 pues su abrazo eterno, siempre te abraze.
 
 mirador
+
 Entre sombras de árboles y susurros de agua,
 una plataforma se asoma, escondida en su danza,
 de madera oscura, como secretos guardados,
@@ -82,7 +88,7 @@ el tiempo se detiene, la vida se levanta,
 un pequeño paraíso, un rincón escondido,
 donde el corazón encuentra su sentido.
 
-idea1cod
+idea1 codigo
 
 ```js
 let button;
