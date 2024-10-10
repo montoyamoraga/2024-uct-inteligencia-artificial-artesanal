@@ -11,27 +11,35 @@ let numeroAbajo;
 let numeroIzquierda;
 let numeroDerecha;
 
+let umbral = 0.8;
+
+let posicionX = 100;
+let posicionY = 100;
+let anchoX = 100;
+let anchoY = 100;
+
+let pasoX = 1;
+let pasoY = 1;
 
 function paraArriba() {
-  background(255, 0, 0);
   console.log("paraArriba");
+  posicionY = posicionY - pasoY;
 }
 
 function paraAbajo() {
-  background(255, 255, 0);
   console.log("paraAbajo");
+  posicionY = posicionY + pasoY;
 }
 
 function paraIzquierda() {
-  background(255, 0, 255);
   console.log("paraIzquierda");
+  posicionX = posicionX - pasoX;
 }
 
 function paraDerecha() {
-  background(0, 255, 0);
   console.log("paraDerecha");
+  posicionX = posicionX + pasoX;
 }
-
 
 async function init() {
   const modelURL = URL + "model.json";
@@ -80,28 +88,24 @@ async function predict() {
     const classPrediction =
       prediction[i].className + ": " + prediction[i].probability.toFixed(2);
       numeroArriba = prediction[0].probability.toFixed(2);
-      numeroAbajo = prediction[1].probability.toFixed(2);
+      numeroDerecha = prediction[1].probability.toFixed(2);
       numeroIzquierda = prediction[2].probability.toFixed(2);
-      numeroDerecha = prediction[3].probability.toFixed(2);
+      numeroAbajo = prediction[3].probability.toFixed(2);
+    
     labelContainer.childNodes[i].innerHTML = classPrediction;
 
-    if(numeroArriba > 0.5) {
+    if(numeroArriba > umbral) {
       paraArriba();
     }
-    else if (numeroAbajo > 0.5) {
+    else if (numeroAbajo > umbral) {
       paraAbajo();
     }
-    else if (numeroIzquierda > 0.5) {
+    else if (numeroIzquierda > umbral) {
       paraIzquierda();
     }
-    else if (numeroDerecha > 0.5) {
+    else if (numeroDerecha > umbral) {
       paraDerecha();
     }
-     if(paraArriba > width - anchoX/2) {
-  direccion = -5;
-    else if (paraAbajo < 0 + anchoX/2) {
-    direccion = 5    
-  }
   }
 
   // finally draw the poses
@@ -120,42 +124,29 @@ function drawPose(pose) {
   }
 }
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  posicionX = 100;
-  posicionY = 100;
-  velocidad = 5;
-  direccion = 5;
-  anchoX = 50;
-  anchoY = 50;
-  
+  createCanvas(500, 500);
   console.log("ancho:  " + windowWidth)
   console.log("altura:  " + windowHeight)
+  
 }
 
 function draw() {
   background(50, 100, 100);
-  ellipse(posicionX, posicionY, anchoX, anchoY);
-  
-  posicionX = posicionX + direccion;
-  //posicionY = posicionY + direccion;
-  
-  console.log(posicionX);
-  
-  // cuando llegue al final del lienzo hacer que vuelva a aparecer
-  //if(posicionX > 373){
-  //posicionX = 0;
-    
+  // dibujar la elipse donde corresponde
+
+  // atajar las posiciones en los bordes
   if (posicionX > width - anchoX/2) {
-  direccion = -5;
+    posicionX = width - anchoX/2;
+  } else if (posicionX < anchoX/2) {
+    posicionX = anchoX/2;
   }
-  else if (posicionX < 0 + anchoX/2) {
-    direccion = 5
+
+  if (posicionY > height - anchoY/2) {
+    posicionY = height - anchoY/2;
   }
-  
-  //console.log(posicionY);
-  //if (posicionY > height - anchoY/2) {
-   // direccion = -5;
-  //}
-    
-  
+  else if (posicionY < anchoY/2) {
+    posicionY = anchoY/2;
+  }
+
+  ellipse(posicionX, posicionY, anchoX, anchoY);
 }

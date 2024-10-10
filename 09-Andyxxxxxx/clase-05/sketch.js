@@ -127,7 +127,13 @@ function setup() {
 
   video = createCapture(VIDEO);
   video.size(width, height);
+  videoASCII = createCapture(VIDEO);
   video.hide();
+
+  vidCerca = createCapture(VIDEO);
+  vidCerca.size(64, 48);
+
+  asciiDiv = createDiv();
 
   grid = new CircleGrid();
 }
@@ -139,18 +145,22 @@ function draw() {
   
   // muestra la grilla de circulitos
   if (estaCerca) {
-    background(0, 255, 0);
+    resizeCanvas(525, 375);
+    videoTipoCerca();
   }
   else if (estaSentado) {
-    background(0, 0, 255);
+    resizeCanvas(10, 10);
+    background(255);
+    videoTipoASCII();
   }
   else if (estaCaminando) {
+    resizeCanvas(525, 375);
     grid.display();
   }
   else {
+    resizeCanvas(525, 375);
     background(255, 0, 0);
   }
-
  
 }
 
@@ -211,10 +221,84 @@ class CircleGrid {
         this.circles[i][j].display();
       }
     }
+  }
+}
 
-    let selection1 = int(random(this.circles.length - 1));
-    let selection2 = int(random(this.circles[0].length - 1));
-    let col = listOfColors[int(random(0, listOfColors.length))];
-    this.circles[selection1][selection2].c = col;
+
+// inicio codigo shiffman ascii para sentado
+// Image to ASCII
+// The Coding Train / Daniel Shiffman
+// https://thecodingtrain.com/CodingChallenges/166-ascii-image.html
+// https://youtu.be/55iwMYv8tGI
+
+// ASCII video: https://editor.p5js.org/codingtrain/sketches/KTVfEcpWx
+// ASCII image canvas: https://editor.p5js.org/codingtrain/sketches/r4ApYWpH_
+// ASCII image DOM: https://editor.p5js.org/codingtrain/sketches/ytK7J7d5j
+// ASCII image source text: https://editor.p5js.org/codingtrain/sketches/LNBpdYQHP
+// ASCII image weather API: https://editor.p5js.org/codingtrain/sketches/DhdqcoWn4
+
+// const density = "Ñ@#W$9876543210?!abc;:+=-,._          ";
+const density = '        .:░▒▓█';
+
+
+let videoASCII;
+let asciiDiv;
+
+function videoTipoASCII() {
+  videoASCII.size(64, 48);
+  videoASCII.loadPixels();
+  let asciiImage = "";
+  for (let j = 0; j < videoASCII.height; j++) {
+    for (let i = 0; i < videoASCII.width; i++) {
+      const pixelIndex = (i + j * video.width) * 4;
+      const r = videoASCII.pixels[pixelIndex + 0];
+      const g = videoASCII.pixels[pixelIndex + 1];
+      const b = videoASCII.pixels[pixelIndex + 2];
+      const avg = (r + g + b) / 3;
+      const len = density.length;
+      const charIndex = floor(map(avg, 0, 255, 0, len));
+      const c = density.charAt(charIndex);
+      if (c == " ") asciiImage += "&nbsp;";
+      else asciiImage += c;
+    }
+    asciiImage += '<br/>';
+  }
+  asciiDiv.html(asciiImage);
+}
+
+// codigo para cerca
+/*
+----- Coding Tutorial by Patt Vira ----- 
+Name: Drawing with Webcam Input
+Video Tutorial: https://youtu.be/h6tfT8mbueE
+
+Connect with Patt: @pattvira
+https://www.pattvira.com/
+----------------------------------------
+*/
+
+
+let vidCerca;
+let cercaSCL = 10;
+
+function videoTipoCerca() {
+  background(220);
+  vidCerca.loadPixels();
+  
+  for (let i=0; i < vidCerca.width; i++) {
+    for (let j=0; j < vidCerca.height; j++) {
+      // Using pixels 1D array
+      let index = ((j * vidCerca.width) + i)*4;
+      let r = vidCerca.pixels[index + 0];
+      let g = vidCerca.pixels[index + 1];
+      let b = vidCerca.pixels[index + 2];
+      let a = vidCerca.pixels[index + 3];
+      
+      let c = (r + g + b) / 3;
+      let s = map(c, 0, 100, 0, 20);
+      fill(c);
+
+      ellipse(cercaSCL/2 + i*cercaSCL, cercaSCL/2 + j*cercaSCL, s, s);      
+    }
   }
 }
