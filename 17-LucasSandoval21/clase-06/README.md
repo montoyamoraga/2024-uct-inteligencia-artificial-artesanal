@@ -6,4 +6,4 @@ Sensor de moviemiento donde cambia el color dependiendo de que direccion marca e
 ```Arriba = Rojo
 Abajo = Verde
 Derecha = Amarillo
-Izquierda = Morado```
+Izquierda = Morado
