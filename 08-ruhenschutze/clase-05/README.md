@@ -1,7 +1,7 @@
 # clase-05
- cosas que añadir a la app.
+cosas que añadir a la app.
 calistenia
- En el susurro del viento universitario,
+En el susurro del viento universitario,
 donde el sol dibuja sombras en la tierra,
 busca un rincón de cuerpos en movimiento,
 entre risas, gritos y el eco del juego.
@@ -115,7 +115,7 @@ function toggleText() {
 }
 ```
 save 2
-```
+```js
 let button1, button2, button3;
 let showText1 = false;
 let showText2 = false;
