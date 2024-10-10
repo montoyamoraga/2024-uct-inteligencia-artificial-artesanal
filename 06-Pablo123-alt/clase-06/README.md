@@ -237,4 +237,13 @@ function toggleText6() {
   showText5 = false;
   showText1 = false;// Oculta el texto 2 si el 1 se muestra
 }
-![foto de mi](./image2.webp)
+![foto de mi](./imaged41.png)
+![foto de mi](./imaged42.png)}
+![foto de mi](./imaged43.png)
+![foto de mi](./imaged44.png)
+![foto de mi](./imaged45.png)
+![foto de mi](./imaged46.png)
+![foto de mi](./imaged47.png)
+![foto de mi](./imaged48.png)
+![foto de mi](./imaged49.png)
+![foto de mi](./imaged410.png)
