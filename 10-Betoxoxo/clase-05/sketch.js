@@ -118,8 +118,34 @@ function drawPose(pose) {
 function setup() {
   createCanvas(300, 300);
   background(255, 0, 0)
+  posicionX = 100;
+  posicionY = 100;
+  velocidad = 5;
+  direccion = 5;
+  anchoX = 50;
+  anchoY = 50;
+  
 }
 
 function draw() {
+  ellipse(posicionX, posicionY, anchoX, anchoY);
+
+  
+  posicionX = posicionX + direccion;
+  //posicionY = posicionY + direccion;
+  
+  console.log(posicionX);
+  
+  // cuando llegue al final del lienzo hacer que vuelva a aparecer
+  //if(posicionX > 373){
+  //posicionX = 0;
+    
+  if (posicionX > width - anchoX/2) {
+  direccion = -5;
+  }
+  else if (posicionX < 0 + anchoX/2) {
+    direccion = 5
+  }
+  
 
 }
