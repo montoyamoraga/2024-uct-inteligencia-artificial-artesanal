@@ -6,7 +6,8 @@ let classifier;
 let label = 'listening...';
 
 // Teachable Machine model URL:
-let soundModel = './my_model/';
+// let soundModel = './my_model/';
+let soundModel = 'my_model/';
 
 
 function preload() {
