@@ -1,4 +1,5 @@
 # clase-05
+* 10 de octubre del 2024
 ## proyecto parte 2
 * Este proyecto trata crear un algoritmo capaz de reconocer pasos de baile y a la letra de la canción a la que pertenecen
 * A continuación
