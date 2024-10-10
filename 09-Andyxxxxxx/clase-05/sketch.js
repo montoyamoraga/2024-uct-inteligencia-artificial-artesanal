@@ -127,7 +127,10 @@ function setup() {
 
   video = createCapture(VIDEO);
   video.size(width, height);
+  videoASCII = createCapture(VIDEO);
   video.hide();
+
+  asciiDiv = createDiv();
 
   grid = new CircleGrid();
 }
@@ -142,9 +145,12 @@ function draw() {
     background(0, 255, 0);
   }
   else if (estaSentado) {
-    background(0, 0, 255);
+    resizeCanvas(10, 10);
+    background(255);
+    videoTipoASCII();
   }
   else if (estaCaminando) {
+    resizeCanvas(525, 375);
     grid.display();
   }
   else {
@@ -211,5 +217,48 @@ class CircleGrid {
         this.circles[i][j].display();
       }
     }
+  }
+}
 
-     
+
+// inicio codigo shiffman ascii para sentado
+// Image to ASCII
+// The Coding Train / Daniel Shiffman
+// https://thecodingtrain.com/CodingChallenges/166-ascii-image.html
+// https://youtu.be/55iwMYv8tGI
+
+// ASCII video: https://editor.p5js.org/codingtrain/sketches/KTVfEcpWx
+// ASCII image canvas: https://editor.p5js.org/codingtrain/sketches/r4ApYWpH_
+// ASCII image DOM: https://editor.p5js.org/codingtrain/sketches/ytK7J7d5j
+// ASCII image source text: https://editor.p5js.org/codingtrain/sketches/LNBpdYQHP
+// ASCII image weather API: https://editor.p5js.org/codingtrain/sketches/DhdqcoWn4
+
+// const density = "Ñ@#W$9876543210?!abc;:+=-,._          ";
+const density = '        .:░▒▓█';
+
+
+let videoASCII;
+let asciiDiv;
+
+function videoTipoASCII() {
+  videoASCII.size(64, 48);
+  videoASCII.loadPixels();
+  let asciiImage = "";
+  for (let j = 0; j < videoASCII.height; j++) {
+    for (let i = 0; i < videoASCII.width; i++) {
+      const pixelIndex = (i + j * video.width) * 4;
+      const r = videoASCII.pixels[pixelIndex + 0];
+      const g = videoASCII.pixels[pixelIndex + 1];
+      const b = videoASCII.pixels[pixelIndex + 2];
+      const avg = (r + g + b) / 3;
+      const len = density.length;
+      const charIndex = floor(map(avg, 0, 255, 0, len));
+      const c = density.charAt(charIndex);
+      if (c == " ") asciiImage += "&nbsp;";
+      else asciiImage += c;
+    }
+    asciiImage += '<br/>';
+  }
+  asciiDiv.html(asciiImage);
+}
+

@@ -131,7 +131,7 @@ function setup() {
 }
 
 function draw() {
-  background(255, 255, 0);
+  background(50, 100, 100);
   // dibujar la elipse donde corresponde
 
   // atajar las posiciones en los bordes
