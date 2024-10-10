@@ -20,6 +20,39 @@ Para la primera prueba utilizamos la primera mitad de la canción Poker Face de 
 
 iwannaholdem-samples.zip
 
+liketheydointexas-samples.zip
+
+please-samples.zip
+
+foldem-samples.zip
+
+letemhitme-samples.zip
+
+raisetit-samples.zip
+
+babystaywithme-samples.zip
+
+iloveit-samples.zip
+
+lovegameintuition-samples.zip
+
+
+andafterhisbeenhooked-samples.zip
+
+
+illgethimhot-samples.zip
+illplaytheonethstsonhisheart-samples.zip
+
+
+
+
+my-pose-model.zip
+ohohohohohohoh-samples.zip
+playthecardswithspadestostart-samples.zip
+
+
+showhimwhativegot-samples.zip
+
 
 
 
