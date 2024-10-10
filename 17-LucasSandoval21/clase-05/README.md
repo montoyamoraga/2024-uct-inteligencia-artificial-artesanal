@@ -8,4 +8,4 @@ Subir base de datos al Drive
 ```Photoshop
 Ilustartor
 Indesign
-Logo de Creative Cloud```
+Logo de Creative Cloud
