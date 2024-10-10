@@ -5,6 +5,34 @@
 const URL = "./my_model/";
 let model, webcam, ctx, labelContainer, maxPredictions;
 
+// variables de clases
+let numeroArriba;
+let numeroAbajo;
+let numeroIzquierda;
+let numeroDerecha;
+
+
+function paraArriba() {
+  background(255, 0, 0);
+  console.log("paraArriba");
+}
+
+function paraAbajo() {
+  background(255, 255, 0);
+  console.log("paraAbajo");
+}
+
+function paraIzquierda() {
+  background(255, 0, 255);
+  console.log("paraIzquierda");
+}
+
+function paraDerecha() {
+  background(0, 255, 0);
+  console.log("paraDerecha");
+}
+
+
 async function init() {
   const modelURL = URL + "model.json";
   const metadataURL = URL + "metadata.json";
@@ -51,7 +79,24 @@ async function predict() {
   for (let i = 0; i < maxPredictions; i++) {
     const classPrediction =
       prediction[i].className + ": " + prediction[i].probability.toFixed(2);
+      numeroArriba = prediction[0].probability.toFixed(2);
+      numeroAbajo = prediction[1].probability.toFixed(2);
+      numeroIzquierda = prediction[2].probability.toFixed(2);
+      numeroDerecha = prediction[3].probability.toFixed(2);
     labelContainer.childNodes[i].innerHTML = classPrediction;
+
+    if(numeroArriba > 0.5) {
+      paraArriba();
+    }
+    else if (numeroAbajo > 0.5) {
+      paraAbajo();
+    }
+    else if (numeroIzquierda > 0.5) {
+      paraIzquierda();
+    }
+    else if (numeroDerecha > 0.5) {
+      paraDerecha();
+    }
   }
 
   // finally draw the poses
