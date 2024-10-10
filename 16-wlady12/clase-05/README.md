@@ -14,7 +14,7 @@ WORKING PROGRESS
 * Desvelo 😴 😴 😴
 
  grabacion de palabras para clasificar informacion e iniciar con la base de datos en teanchable machine https://teachablemachine.withgoogle.com/train/audio
-(./capturapantalla_grabacionaudio.png)
+![foto de mi](./capturapantalla_grabacionaudio.png)
 
 codigo de audio
 
@@ -71,4 +71,4 @@ function gotResult(error, results) {
 ```
 
 la pagina funcioando aqui https://montoyamoraga.io/2024-uct-inteligencia-artificial-artesanal/15-MrRojasJr/clase-05/
-(./capturapantalla_paginaFuncionando.png)
+![foto de mi](./capturapantalla_paginaFuncionando.png)
