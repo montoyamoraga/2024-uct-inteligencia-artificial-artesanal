@@ -1,4 +1,7 @@
 # clase-05
+Ocupamos chat gpt para hacer los acertijos con forma de poema para cada cosa/lugar.
+![foto de mi](./image2.webp)
+
 cosas que añadir a la app:
 calistenia
 
