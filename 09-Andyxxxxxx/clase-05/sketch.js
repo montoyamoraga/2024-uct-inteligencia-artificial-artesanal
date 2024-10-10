@@ -212,9 +212,4 @@ class CircleGrid {
       }
     }
 
-    let selection1 = int(random(this.circles.length - 1));
-    let selection2 = int(random(this.circles[0].length - 1));
-    let col = listOfColors[int(random(0, listOfColors.length))];
-    this.circles[selection1][selection2].c = col;
-  }
-}
+     
