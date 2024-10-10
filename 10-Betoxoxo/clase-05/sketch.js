@@ -116,7 +116,7 @@ function drawPose(pose) {
 }
 
 function setup() {
-  createCanvas(700, 700);
+  createCanvas(1500, 1500);
   background(255, 0, 0)
 
   
