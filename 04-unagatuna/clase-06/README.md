@@ -17,6 +17,7 @@
 * Cambio tamaño del lienzo
 * Eliminamos la interfaz para ajustar los tamaños de los circulitos 
 * Actualizacion del segundo filtro "Sentado"
+* Actualizacion del tercer filtro
 
 ## Texto que se va a visualizar en la pantalla
   Instrucciones
@@ -26,5 +27,6 @@
   * Caminar
   Realice una de estas posiciones y observe los efectos visuales que se mostraran en pantalla. Cada acción esta programada 
   para reaccionar de manera diferente en la interfaz. Disfruta :)
+* AGregar fecha
   
 
