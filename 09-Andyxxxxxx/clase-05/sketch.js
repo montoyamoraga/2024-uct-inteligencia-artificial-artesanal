@@ -39,6 +39,15 @@ async function loopWebcam(timestamp) {
     window.requestAnimationFrame(loopWebcam);
 }
 
+let probabilidadCerca = 0.0;
+let probabilidadSentado = 0.0;
+let probabilidadCaminando = 0.0;
+
+// logica de variables
+let estaCerca = false;
+let estaSentado = false;
+let estaCaminando = false;
+
 async function predict() {
     // Prediction #1: run input through posenet
     // estimatePose can take in an image, video or canvas html element
@@ -49,6 +58,37 @@ async function predict() {
     for (let i = 0; i < maxPredictions; i++) {
         const classPrediction =
             prediction[i].className + ": " + prediction[i].probability.toFixed(2);
+        if (prediction[i].className == "cerca") {
+            probabilidadCerca = prediction[i].probability;
+        }
+        if (prediction[i].className == "sentadoReal") {
+            probabilidadSentado = prediction[i].probability;
+        }
+        if (prediction[i].className == "caminandoo") {
+            probabilidadCaminando = prediction[i].probability;
+        }
+
+        if (probabilidadCerca > 0.8) {
+            estaCerca = true;
+        }
+        if (probabilidadCerca < 0.8) {
+            estaCerca = false;
+        }
+        if (probabilidadSentado > 0.8) {
+            estaSentado = true;
+        }
+        if (probabilidadSentado < 0.8) {
+            estaSentado = false;
+        }
+
+        if (probabilidadCaminando > 0.8) {
+            estaCaminando = true;
+        }
+        if (probabilidadCaminando < 0.8) {
+            estaCaminando = false;
+        }
+      
+
         labelContainer.childNodes[i].innerHTML = classPrediction;
     }
 
@@ -68,112 +108,113 @@ function drawPose(pose) {
     }
 }
 
+// creditos codigo original de Jeff Thompson https://www.youtube.com/watch?v=exrH7tvt3f4
+
+let video;
+let listOfColors = ["#1c77c3", "#39a9db", "#40bcd8", "#f39237", "#d63230", "#540d6e", "#ee4266", "#ffd23f","#f3fcf0", "#19647E",];
+
+let tasaDeReproduccion = 60;
+// TODO: afinar este parametro
+let parametroDiametro = 40.0;
+
+
+
 function setup() {
-  createCanvas(200, 200);
-  background(255, 0, 0);
+  // createCanvas(1050, 750);
+  // lienzo a la mitad del tamano original
+  createCanvas(525, 375);
+  frameRate(tasaDeReproduccion);
+
+  video = createCapture(VIDEO);
+  video.size(width, height);
+  video.hide();
+
+  grid = new CircleGrid();
 }
 
 function draw() {
-  ellipse(mouseX, mouseY, 10, 10);
+  // pinta el fondo negro, valor 0
+  // con 50 de transparencia
+  background(0, 50);
+  
+  // muestra la grilla de circulitos
+  if (estaCerca) {
+    background(0, 255, 0);
+  }
+  else if (estaSentado) {
+    background(0, 0, 255);
+  }
+  else if (estaCaminando) {
+    grid.display();
+  }
+  else {
+    background(255, 0, 0);
+  }
+
+ 
 }
 
-///////// de aqui en adelante es el codigo nuevo
-// source code from Jeff Thompson https://www.youtube.com/watch?v=exrH7tvt3f4
 
-// let video;
-// var listOfColors = ["#1c77c3", "#39a9db", "#40bcd8", "#f39237", "#d63230", "#540d6e", "#ee4266", "#ffd23f","#f3fcf0", "#19647E",];
-// // var listOfColors = ["#4EA8DE", "#72EFDD", "#64DFDF", "#56CFE1", "#48BFE3","#4EA8DE","#5390D9","#5E60CE","#6930C3","#7400B8"];
+class CircleClass {
+  constructor(px, py, s) {
+    this.positionX = px;
+    this.positionY = py;
+    this.size = s;
+    this.c = listOfColors[int(random(0, listOfColors.length))];
+  }
 
-// let fr = 60;
-// let slider;
-
-// function setup() {
-//   createCanvas(1050, 750);
-//   frameRate(fr);
-  
-//   slider = createSlider(10, 60, 30, 1);
-//   slider.position(10, 10);
-//   slider.style('width', '150px');
-
-//   video = createCapture(VIDEO);
-//   video.size(width, height);
-//   video.hide();
-
-//   grid = new CircleGrid();
-// }
-
-// function draw() {
-//   // background(244, 241, 222, 50);
-//   background(0, 50)
-
-//   grid.display();
-// }
-
-// class CircleClass {
-//   constructor(px, py, s) {
-//     this.positionX = px;
-//     this.positionY = py;
-//     this.size = s;
-//     this.c = listOfColors[int(random(0, listOfColors.length))];
-//   }
-
-//   display() {
-//     circle(this.positionX, this.positionY, this.size);
+  display() {
+    circle(this.positionX, this.positionY, this.size);
     
-//     if (this.size > 15) {
-//       noStroke();
-//       fill(this.c);
-//     } else {
-//       noFill();
-//       strokeWeight(1);
-//       stroke(this.c);
-//     }
-//   }
-// }
+    if (this.size > 15) {
+      noStroke();
+      fill(this.c);
+    } else {
+      noFill();
+      strokeWeight(1);
+      stroke(this.c);
+    }
+  }
+}
 
-// class CircleGrid {
-//   constructor() {
-//     this.gridSize = 30
-//     this.circles = [];
+class CircleGrid {
+  constructor() {
+    this.gridSize = 30
+    this.circles = [];
+
+    for (let y = 0; y < video.height; y += this.gridSize) {
+      let row = [];
+      for (let x = 0; x < video.width; x += this.gridSize) {
+        let index = (y * video.width + x) * 4;
+        let r = video.pixels[index];
+        let dia = map(r, 0, 255, this.gridSize, 2);
+        row.push(
+          new CircleClass(x + this.gridSize / 
+                          2, y + this.gridSize / 2, dia)
+        );
+      }
+      this.circles.push(row);
+    }
+  }
+
+  display() {
+    video.loadPixels();
     
-//     // console.log(this.gridSlider)
+    //change circle size depending on brightness of pixel
+    for (let i = 0; i < this.circles.length; i++) {
+      for (let j = 0; j < this.circles[0].length; j++) {
+        let index = (i * this.gridSize * video.width + 
+                     j * this.gridSize) * 4;
+        let r = video.pixels[index];
+        let dia = map(r, 0, 255, parametroDiametro, 0);
+        this.circles[i][j].size = dia;
+        this.circles[i][j].display();
+      }
+    }
 
-//     for (let y = 0; y < video.height; y += this.gridSize) {
-//       let row = [];
-//       for (let x = 0; x < video.width; x += this.gridSize) {
-//         let index = (y * video.width + x) * 4;
-//         let r = video.pixels[index];
-//         let dia = map(r, 0, 255, this.gridSize, 2);
-//         row.push(
-//           new CircleClass(x + this.gridSize / 
-//                           2, y + this.gridSize / 2, dia)
-//         );
-//       }
-//       this.circles.push(row);
-//     }
-//   }
-
-//   display() {
-//     video.loadPixels();
-//     this.gridSlider = slider.value()
-//     // this.gridSize = this.gridSlider
-    
-//     //change circle size depending on brightness of pixel
-//     for (let i = 0; i < this.circles.length; i++) {
-//       for (let j = 0; j < this.circles[0].length; j++) {
-//         let index = (i * this.gridSize * video.width + 
-//                      j * this.gridSize) * 4;
-//         let r = video.pixels[index];
-//         let dia = map(r, 0, 255, this.gridSlider, 0);
-//         this.circles[i][j].size = dia;
-//         this.circles[i][j].display();
-//       }
-//     }
-
-//     var selection1 = int(random(this.circles.length - 1));
-//     var selection2 = int(random(this.circles[0].length - 1));
-//     var col = listOfColors[int(random(0, listOfColors.length))];
-//     this.circles[selection1][selection2].c = col;
-//   }
-// }
-
+    let selection1 = int(random(this.circles.length - 1));
+    let selection2 = int(random(this.circles[0].length - 1));
+    let col = listOfColors[int(random(0, listOfColors.length))];
+    this.circles[selection1][selection2].c = col;
+  }
+}
