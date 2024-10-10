@@ -18,6 +18,8 @@ Comenzamos a probar teachable machine (tm) para la creación de una base de dato
 
 Para la primera prueba utilizamos la primera mitad de la canción Poker Face de Lady Gaga, logrando un modelo final y 15 samples diferentes, a continuación los archivos de cada sample y el modelo:
 
+iwannaholdem-samples.zip
+
 
 
 
