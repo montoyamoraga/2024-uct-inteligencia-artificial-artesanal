@@ -237,3 +237,4 @@ function toggleText6() {
   showText5 = false;
   showText1 = false;// Oculta el texto 2 si el 1 se muestra
 }
+![foto de mi](./image2.webp)
