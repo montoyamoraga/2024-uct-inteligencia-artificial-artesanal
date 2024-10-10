@@ -3,7 +3,7 @@ CIRUGIA AL MODELO
 
 mejorando la funcionabilidad
 
-´´´
+´´´ javacript
   // Global variable to store the classifier
 let classifier;
 
