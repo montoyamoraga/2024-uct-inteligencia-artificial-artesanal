@@ -8,3 +8,5 @@ Arriba = Rojo
 Abajo = Verde
 Derecha = Amarillo
 Izquierda = Morado
+
+Sensor de controlar la pelota con el movimiento del cuerpo y brazos
