@@ -1,6 +1,6 @@
 # clase-05
 
-### "naturaleza"
+# "naturaleza"
 
 ## idea del proyecto
 
