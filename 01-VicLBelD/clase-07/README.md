@@ -35,7 +35,7 @@ reconoce dos colores en especifico, los cuales serian:
 ## como funciona en el celular
 
 ![Pantallazo6](Screenshot_20241011-094708-946.png)
-![Pantallazo7]
+![Pantallazo7](Screenshot_20241011-094745-481.png)
 ![Pantallazo8]
 ![Pantallazo9]
 
