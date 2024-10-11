@@ -18,3 +18,6 @@ Recolectamos alrededor de 100 fotos para cada caso:
 
 Ocupamos el codigo que nos arrojo teach hable sobre nuestra base de datos, este lo pusimos en el nuestro distinguiendo lo que estaba escrito en otro lenguaje de programacion y eliminando lineas de codio redundantes o que no aportaban nada:
 ![foto de mi](./imaged47.webp)
+
+El codigo:
+<https://editor.p5js.org/ruhenschutze/sketches/9FHrvQEnS>
