@@ -1,0 +1,26 @@
+html, body {
+    margin: 2px;
+    padding: 2px;
+}
+canvas {
+  display: block;
+}
+
+p {
+  line-height: 0.8;
+  font-size: 14px;
+  margin: 2px;
+  padding: 2px;
+}
+
+h1, h2, h3 {
+  margin: 2px;
+  padding: 2px;
+}
+
+ul, li {
+  line-height: 0.8;
+  margin: 2px;
+  padding: 2px;
+}
+
