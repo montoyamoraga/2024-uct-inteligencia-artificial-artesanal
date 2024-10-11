@@ -34,7 +34,7 @@ reconoce dos colores en especifico, los cuales serian:
 
 ## como funciona en el celular
 
-![Pantallazo6]()
+![Pantallazo6]WhatsApp Image 2024-10-11 at 9.48.07 AM.jpeg)
 ![Pantallazo7]
 ![Pantallazo8]
 ![Pantallazo9]
