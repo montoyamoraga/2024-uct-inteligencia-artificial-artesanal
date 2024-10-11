@@ -1,6 +1,6 @@
 # clase-05
 
-##idea del proyecto
+## idea del proyecto
 
 el principio de la idea era que dectectara cierta cantidad de colores que se disminuyo a 4 colores pero al ser colores similares u/o iguales, ya que solo serian de mas o poca saturacion  quedando en 2 tonos en especificos mas otros colores que abarca al resto de colores.
 
