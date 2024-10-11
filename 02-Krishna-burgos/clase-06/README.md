@@ -5,11 +5,24 @@
 * Hay dos pasos funcionan levemente ya que el computador capta como similares esos pasos
 * Los demás pasos fi¿uncionan excelente
 * A continuación se enviaran las pruebas fallidas
-* 
 
+* link del proyecto
+  
 <https://editor.p5js.org/Krishna-burgos/full/mAFcTPtrk>
 
-## Imágenes de pruebas de reconocimiento pose/letra en Teachable Machine en modo 'proyecto de imagen'
+* link del proyecto mejorado
+
+<https://editor.p5js.org/Krishna-burgos/full/HPYyqA3pd>
+  
+
+## proyecto final 
+* A pesar de las pequeñas fallas funciona bien el proyecto y es algo que se puede celebrar, al no haber realizado nunca algo asi y en menos de una semana.
+
+## Aprendizaje
+* En éste curso de workshop prendí a programar y utilizar algoritmos, fue entretenido aprender a relizar estos proyectos y cada que habia algún  error aprendiamos y lo haciamos de nuevo, tambien debemos aprender a parar cuando algo no funciona
+* Agradecidad de tener la oportunidad de poder crear un arte mas programático y algoritmico
+
+# Imágenes de pruebas de reconocimiento pose/letra en Teachable Machine en modo 'proyecto de imagen'
 
 ![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_27.png)
 
@@ -31,7 +44,8 @@
 
 ![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_36.png)
 
-## Capturas de pantalla de pruebas del algoritmo transpasado a p5.js
+
+# Capturas de pantalla de pruebas del algoritmo por medio de p5.js
 
 ![prueba de algoritmo en p5.js](./capturaPrueba_1.png)
 
@@ -53,20 +67,3 @@
 
 ![prueba de algoritmo en p5.js](./capturaPrueba_10.png)
 
-
-
-
-
-
-
-
-
-## proyecto final 
-* A pesar de las pequeñas fallas funciona bien el proyecto y es algo que se puede celebrar, al no haber realizado nunca algo asi y en menos de una semana.
-
-
-
-
-## Aprendizaje
-* En éste curso de workshop prendí a programar y utilizar algoritmos, fue entretenido aprender a relizar estos proyectos y cada que habia algún  error aprendiamos y lo haciamos de nuevo, tambien debemos aprender a parar cuando algo no funciona
-* Agradecidad de tener la oportunidad de poder crear un arte mas programático y algoritmico
