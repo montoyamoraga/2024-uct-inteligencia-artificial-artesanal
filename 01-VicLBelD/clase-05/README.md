@@ -20,6 +20,7 @@ reconoce dos colores en especifico, los cuales serian:
 
 
 ##imagenes explicativos
+
 ![Pantallazo1](SmartSelect_20241010_220334_Chrome.jpg
 )
 ![Pantallazo2](Screenshot_20241010_220718_Chrome.jpg)
