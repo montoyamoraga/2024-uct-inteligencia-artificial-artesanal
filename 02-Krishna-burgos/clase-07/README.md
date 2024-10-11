@@ -1,20 +1,21 @@
 # clase-06
-* 10 de octubre del 2024
-## Pruebas de proyecto de imágen
-* se realizaron pruebas del proyecto
-* Hay dos pasos funcionan levemente ya que el computador capta como similares esos pasos
-* Los demás pasos fi¿uncionan excelente
-* A continuación se enviaran las pruebas fallidas
+* 11 de octubre del 2024
+## Explicación del proyecto 
+* En éste proyecto de imagén y de algoritmo fue entrenado mediante 8 poses de baile de las cuales solo funcionan 7, la pose con error (Takeme), cada pose tiene una letra del coro de la canción y para ello debes bailar de acuerdo a los pasos que tiene cada letra del coro, los pasos se encuentran en las instrucciones, al seguir los pasos se logrará encontrar la letra del coro de la canción (HOT-TO-GO) de Chappell Roan, también antes de comenzar éste algoritmo deber ser utilizado con un audio, éste audio fue acortado solo a la parte del coro y al comienzo con un conteo, al iniciar el audio, éste contará en inglés, del 5 al 8 para prepararse antes de bailar, las integrantes darán los pasos a seguir.
+
+## Instrucciones 
+*
+
+* Audio del coro
+  
+## Documentación del proyecto 
+
 
 * link del proyecto
   
-<https://editor.p5js.org/Krishna-burgos/full/mAFcTPtrk>
 
-* link del proyecto mejorado
 
-<https://editor.p5js.org/Krishna-burgos/full/HPYyqA3pd>
   
-
 ## proyecto final 
 * A pesar de las pequeñas fallas funciona bien el proyecto y es algo que se puede celebrar, al no haber realizado nunca algo asi y en menos de una semana.
 
@@ -22,48 +23,5 @@
 * En éste curso de workshop prendí a programar y utilizar algoritmos, fue entretenido aprender a relizar estos proyectos y cada que habia algún  error aprendiamos y lo haciamos de nuevo, tambien debemos aprender a parar cuando algo no funciona
 * Agradecidad de tener la oportunidad de poder crear un arte mas programático y algoritmico
 
-# Imágenes de pruebas de reconocimiento pose/letra en Teachable Machine en modo 'proyecto de imagen'
 
-![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_27.png)
-
-![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_28.png)
-
-![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_29.png)
-
-![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_30.png)
-
-![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_31.png)
-
-![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_32.png)
-
-![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_33.png)
-
-![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_34.png)
-
-![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_35.png)
-
-![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_36.png)
-
-
-# Capturas de pantalla de pruebas del algoritmo por medio de p5.js
-
-![prueba de algoritmo en p5.js](./capturaPrueba_1.png)
-
-![prueba de algoritmo en p5.js](./capturaPrueba_2.png)
-
-![prueba de algoritmo en p5.js](./capturaPrueba_3.png)
-
-![prueba de algoritmo en p5.js](./capturaPrueba_4.png)
-
-![prueba de algoritmo en p5.js](./capturaPrueba_5.png)
-
-![prueba de algoritmo en p5.js](./capturaPrueba_6.png)
-
-![prueba de algoritmo en p5.js](./capturaPrueba_7.png)
-
-![prueba de algoritmo en p5.js](./capturaPrueba_8.png)
-
-![prueba de algoritmo en p5.js](./capturaPrueba_9.png)
-
-![prueba de algoritmo en p5.js](./capturaPrueba_10.png)
 
