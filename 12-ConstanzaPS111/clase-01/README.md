@@ -140,6 +140,11 @@ v
 Simplificar a algo más simple como que con solo pestañear caigan las palabras de un escrito especifico. Como referencia la obra de Andreas Refsgaard "Words from another mouth"
 https://netlitteratur.dk/ordfraenandensmund/
 
+links de pruebas o borradores:
+
+* https://editor.p5js.org/ConstanzaPS111/sketches/CFKuYgswu
+
+
 
 
 
