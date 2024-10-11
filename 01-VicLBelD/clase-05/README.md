@@ -112,6 +112,7 @@ reconoce dos colores en especifico, los cuales serian:
 
 
 ##imagenes explicativos
-![Pantallazo1]()
+![Pantallazo1](SmartSelect_20241010_220334_Chrome.jpg
+)
 ![Pantallazo2]()
 ![Pantallazo3]()
