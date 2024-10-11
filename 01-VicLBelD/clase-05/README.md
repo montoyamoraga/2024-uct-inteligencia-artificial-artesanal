@@ -26,8 +26,8 @@ reconoce dos colores en especifico, los cuales serian:
 )
 ![Pantallazo2](Screenshot_20241010_220718_Chrome.jpg)
 ![Pantallazo3](Screenshot_20241010_220742_Chrome.jpg)
-![Pantallazo4]
-![Pantallazo5]
+![Pantallazo4](Screenshot_20241010_222621_Chrome.jpg)
+![Pantallazo5](Screenshot_20241010_222658_Chrome.jpg)
 
 
 ## codigo 
