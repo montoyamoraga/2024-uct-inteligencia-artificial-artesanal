@@ -66,6 +66,15 @@ la misma pagina tiene referencias que nos pueden ayudar a la hora de la programa
 
 <https://editor.p5js.org/VicLBelD/full/Yftun9qiS>
 
+## presentacion
+
+![Pantallazo10]
+![Pantallazo11]
+![Pantallazo12]
+![Pantallazo13]
+
+
+
 ## codigo camara trasera
 
 ```javascript
