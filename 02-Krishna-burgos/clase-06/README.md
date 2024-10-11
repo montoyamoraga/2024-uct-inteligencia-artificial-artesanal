@@ -9,6 +9,52 @@
 
 <https://editor.p5js.org/Krishna-burgos/full/mAFcTPtrk>
 
+## Imágenes de pruebas de reconocimiento pose/letra en Teachable Machine en modo 'proyecto de imagen'
+
+![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_27.png)
+
+![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_28.png)
+
+![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_29.png)
+
+![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_30.png)
+
+![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_31.png)
+
+![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_32.png)
+
+![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_33.png)
+
+![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_34.png)
+
+![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_35.png)
+
+![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_36.png)
+
+## Capturas de pantalla de pruebas del algoritmo transpasado a p5.js
+
+![prueba de algoritmo en p5.js](./capturaPrueba_1.png)
+
+![prueba de algoritmo en p5.js](./capturaPrueba_2.png)
+
+![prueba de algoritmo en p5.js](./capturaPrueba_3.png)
+
+![prueba de algoritmo en p5.js](./capturaPrueba_4.png)
+
+![prueba de algoritmo en p5.js](./capturaPrueba_5.png)
+
+![prueba de algoritmo en p5.js](./capturaPrueba_6.png)
+
+![prueba de algoritmo en p5.js](./capturaPrueba_7.png)
+
+![prueba de algoritmo en p5.js](./capturaPrueba_8.png)
+
+![prueba de algoritmo en p5.js](./capturaPrueba_9.png)
+
+![prueba de algoritmo en p5.js](./capturaPrueba_10.png)
+
+
+
 
 
 
