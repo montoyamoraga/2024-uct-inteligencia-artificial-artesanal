@@ -55,7 +55,8 @@ A continuación se presentan imágenes que evidencian las fallas y logros de nue
 
 ![prueba de proyecto de imagenes en teachable machine](./captura_pantalla_36.png)
 
-## Capturas de pantalla de pruebas del algoritmo transpasado a p5.js
+
+# Capturas de pantalla de pruebas del algoritmo por medio de p5.js
 
 ![prueba de algoritmo en p5.js](./capturaPrueba_1.png)
 
