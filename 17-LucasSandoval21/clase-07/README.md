@@ -14,3 +14,9 @@ Como por ejemplo, si estiramos los brazos a la derecha, la pelota ira a la derec
 Otro ejmeplo si estiramos los brazos arriba, la pelota ira arriba y el color del fondo cambiara a rojo
 Asi con las demas direcciones y otros colores.
 Por lo tanto, Hemos demostrado hacer un momento de situacion interactiva basica tanto con la pelota y el fondo juntos para asi imaginarse un escenario interactivo.
+
+Espacio para exponer el trabajo:
+Alternativas
+
+-Laboratorio de Computacion,
+-Salas del piso 4 o 3
