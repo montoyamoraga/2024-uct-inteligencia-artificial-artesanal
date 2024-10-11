@@ -38,7 +38,7 @@ para crear el codigo se utilizo la siguiente pagina
 
 <https://teachablemachine.withgoogle.com/>
 
- para entrenar se subieron 100 imagenes de cada categoria, en total serian 300, lo que ayudo a la programacion y que se le haga mas facil de indentificar los colores.
+ para entrenar se subieron 100 imagenes de cada categoria, en total serian 300, lo que ayudo a la programacion y que se le haga mas facil de indentificar los colores, tanto como los tonos escogidos y los otros colores.
  la pagina que se utilizo para hacer la pagina y editar el codigo es
 
 <https://editor.p5js.org/>
