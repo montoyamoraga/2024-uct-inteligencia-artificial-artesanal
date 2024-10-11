@@ -36,7 +36,7 @@ reconoce dos colores en especifico, los cuales serian:
 
 ![Pantallazo6](Screenshot_20241011-094708-946.png)
 ![Pantallazo7](Screenshot_20241011-094745-481.png)
-![Pantallazo8]
+![Pantallazo8](Screenshot_20241011-095022-452.png)
 ![Pantallazo9]
 
 ## lo que se utilizo al crear el codigo
