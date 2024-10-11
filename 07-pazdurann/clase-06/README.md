@@ -9,7 +9,7 @@
   
 <https://editor.p5js.org/Krishna-burgos/full/HPYyqA3pd>
 
-#Proyecto final
+# Proyecto final
 
 Comenzamos a realizar las capturas de datos que utilizaremos a en proyecto final. El cual tiene como objetivo que pasos de baile seleccionados por nosotras con respecto a la letra del coro de la canción 'hot to go de Chappel Roan' sean leidos a traves de la webcam y mostrando en la pantalla la parte de la letra a la que pertenecen cada movimiento.
 
