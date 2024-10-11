@@ -16,6 +16,8 @@ reconoce dos colores en especifico, los cuales serian:
  aparecera una imagen cuando se muestre el cafe u/o verde, se mostrara en la pantalla.
  las fotos son  tomadas de distintos puntos del campus norte de la uct u otros lugares, en su mayoria son de la uct.
 
+ el reconocimiento funciona con los colores verdes y cafes de la naturaleza.
+
 
 
 
