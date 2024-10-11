@@ -85,3 +85,38 @@ el usuario se le presenta una interfaz con botones, cada uno de los botones te d
 ### bibliografía
 
 - ChatGPT fue usado para la generación de acertijos y códigos de HTML que programamos.
+
+## grupo-04
+
+integrantes:
+
+- @Catalina555yul
+- @ConstanzaPS111
+
+tecnologías usadas:
+
+- ml5.js
+- p5.js
+- Teachable Machine
+
+entradas y salidas de la obra:
+
+la entrada es la webcam de un computador, que alimenta a un algoritmo que detecta imágenes.
+
+este algoritmo fue entrenada para reconocer 3 categorías, cada una alimentada por una base de datos que hicimos de 120 imágenes. las categorías son:
+
+- cara
+- puño
+- palma
+
+el usuario se sienta frente al computador, y cuando detecta la categoría puño, hay un texto superpuesto en la webcam que itera sobre una lista de presagios que escribimos.
+
+si el algoritmo detecta la palma, se selecciona una de los presagios.
+
+cuando el algoritmo detecta tu rostro, el texto cae y desaparece de la pantalla.
+
+registro del montaje:
+
+bibliografía
+
+- textos presagios fueron de factura propia
