@@ -9,8 +9,8 @@ PROPUESTA FINAL...
 
 # PROSAGIOS
 
-* https://editor.p5js.org/ConstanzaPS111/sketches/bAG_MllF1
-* https://editor.p5js.org/ConstanzaPS111/full/bAG_MllF1
+* https://editor.p5js.org/ConstanzaPS111/sketches/Yvid6zDlW
+* https://editor.p5js.org/ConstanzaPS111/full/Yvid6zDlW
 
 Nuestro proyecto se titula “PROSAGIOS” el cual es una combinación de las palabras “presagios” y “programación” debido a que el proyecto, en efecto, está trabajado con este sistema de programación. De esa forma, a través de una cámara web, el sujeto frente a esta verá una frase en la parte superior de su proyección y deforma aleatoria uno de los 23 presagios saldrá escogido.
 
@@ -24,6 +24,10 @@ El sujeto debe mantener su mano cerrada en un puño frente a la cámara, lo que 
 
 
 ```
+//instrucciones para el uso del algoritmo
+
+// El sujeto debe mantener su mano cerrada en un puño frente a la cámara, lo que permite que los presagios corran de forma aleatoria, y para escoger una de estas variables solo deberá abrir su mano en una palma, de forma que al quitarla su presagio escogido se deslizará hacia el área posterior derecho, desapareciendo del plano. Para volver a intentarlo solo deberá a repetir las indicaciones. 
+
 let resultadoAnterior = "";
 let resultadoActual = "";
 let numeroResultados = 0;
@@ -40,28 +44,27 @@ let fraseActual = 0;
 let frases = [
   "Tendrás buena fortuna ",
   "Cuidado por donde pisas... ",
-  "¡Recibiras una buena noticia! ",
+  "¡Recibirás una buena noticia! ",
   "...Suerte para la próxima",
   "Todo saldrá bien ",
   "Es buen momento para darte un gusto ",
-  "Busca tiempo a solas... lo necesitaras",
-  "Quizas esa no sea la eleccion correcta ",
+  "Busca tiempo a solas... lo necesitarás",
+  "Quizás esa no sea la elección correcta ",
   "No te presiones tanto",
   "Hay alguien que te necesita ",
   "Debes esforzarte más en ese proyecto",
-  "Hay limitaciones que debes dejar atras",
-  "Tendras conflictos con una persona especial... escucha lo que tenga que decir ",
+  "Hay limitaciones que debes dejar atrás",
+  "Tendrás conflictos con una persona especial...\n escucha lo que tenga que decir ",
   "Es un buen momento para mandar ese CV",
-  "Deja de hacer compras compulsivas... tu billetera lo agradecera" ,
-  "Ten cuidado con tu salud estos dias" ,
+  "Deja de hacer compras compulsivas...\n tu billetera lo agradecerá" ,
+  "Ten cuidado con tu salud estos días" ,
   "Amiga date cuenta" ,
-  "Tendras que enfretar a le desaprovacion de un ser cercano" ,
-  "Un viaje planeado podria cancelarse" ,
-  "Revisa detenidamente tu correo... hay un mensaje que necesitas ver",
-  "Una vieja herida emocional podria resurgir",
-  "Los conocimientos previos traeran nuevas oportunidades",
-  "No procastines o lo lamentaras mas tarde"
-  
+  "Tendrás que enfrentar a la desaprobación de un ser cercano" ,
+  "Un viaje planeado podría cancelarse" ,
+  "Revisa detenidamente tu correo...\n hay un mensaje que necesitas ver",
+  "Una vieja herida emocional podría resurgir",
+  "Los conocimientos previos traerán nuevas oportunidades",
+  "No procastines o lo lamentarás más tarde"
 ];
 
 // Classifier Variable
@@ -139,7 +142,7 @@ function gotResult(error, results) {
 
   resultadoActual = label;
   
-  //console.log(resultadoActual);
+  console.log(resultadoActual);
 
   // si el resultado actual es igual al anterior
   if (resultadoActual == resultadoAnterior) {
@@ -171,4 +174,5 @@ function gotResult(error, results) {
   // Classify again!
   classifyVideo();
 }
+
 ```
