@@ -68,7 +68,7 @@ la misma pagina tiene referencias que nos pueden ayudar a la hora de la programa
 
 ## presentacion
 
-![Pantallazo10]
+![Pantallazo10](IMG-20241011-WA0023.jpg)
 ![Pantallazo11]
 ![Pantallazo12]
 ![Pantallazo13]
