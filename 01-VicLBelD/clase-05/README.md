@@ -1,5 +1,33 @@
 # clase-05
 
+##idea del proyecto
+
+el principio de la idea era que dectectara cierta cantidad de colores que se disminuyo a 4 colores pero al ser colores similares u/o iguales, ya que solo serian de mas o poca saturacion  quedando en 2 tonos en especificos mas otros colores que abarca al resto de colores.
+
+
+##  como funciona 
+
+reconoce dos colores en especifico, los cuales serian:
+- verde
+- cafes
+  u otros colores pero lo mas importantes son los mencionados anteriormente.
+  ya que son colores que se puededen encontar en la mayoria de localidades. 
+
+ aparecera una imagen cuando se muestre el cafe u/o verde, se mostrara en la pantalla.
+ las fotos son  tomadas de distintos puntos del campus norte de la uct u otros lugares, en su mayoria son de la uct.
+
+
+
+
+##imagenes explicativos
+![Pantallazo1](SmartSelect_20241010_220334_Chrome.jpg
+)
+![Pantallazo2](Screenshot_20241010_220718_Chrome.jpg)
+![Pantallazo3](Screenshot_20241010_220742_Chrome.jpg)
+![Pantallazo4]
+![Pantallazo5]
+
+
 ## codigo 
 
 ```javascript
@@ -99,20 +127,8 @@ function gotResult(error, results) {
   classifyVideo();
 }
 ```
-##  como funciona 
-
-reconoce dos colores en especifico, los cuales serian:
-- verde
-- cafes
-  u otros colores pero lo mas importantes son los mencionados anteriormente.
-  ya que son colores que se puededen encontar en la mayoria de localidades. 
-
- aparecera una imagen cuando se muestre el cafe u/o verde, se mostrara en la pantalla.
- las fotos son  tomadas de una parte del campus norte de la uct.
 
 
-##imagenes explicativos
-![Pantallazo1](SmartSelect_20241010_220334_Chrome.jpg
-)
-![Pantallazo2]()
-![Pantallazo3]()
+
+
+
