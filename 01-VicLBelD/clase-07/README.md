@@ -61,7 +61,7 @@ la misma pagina tiene referencias que nos pueden ayudar a la hora de la programa
 
 <https://p5js.org/es/reference/>
 
-## codigo camara tracera 
+## codigo camara trasera
 
 ```javascript
 // Classifier Variable
