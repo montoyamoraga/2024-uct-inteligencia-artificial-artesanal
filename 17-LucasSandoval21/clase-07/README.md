@@ -13,4 +13,4 @@ Aqui hemos trabajado en un codigo para hacer que el movimiento del cuerpo haga e
 Como por ejemplo, si estiramos los brazos a la derecha, la pelota ira a la derecha, donde tambien el color del fondo cambiara a amarillo,
 Otro ejmeplo si estiramos los brazos arriba, la pelota ira arriba y el color del fondo cambiara a rojo
 Asi con las demas direcciones y otros colores.
-En otro contexto, demostramos decir que sirve ser interactivo tanto con la pelota y el fondo juntos para asi 
+Por lo tanto, Hemos demostrado hacer un momento de situacion interactiva basica tanto con la pelota y el fondo juntos para asi imaginarse un escenario interactivo.
