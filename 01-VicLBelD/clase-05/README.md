@@ -19,7 +19,7 @@ reconoce dos colores en especifico, los cuales serian:
 
 
 
-## imagenes explicativos
+## imagenes que muestran como funcionan 
 
 
 ![Pantallazo1](SmartSelect_20241010_220334_Chrome.jpg
