@@ -1,17 +1,22 @@
-# clase-06
-* skeych
-* nombre, subtitulo, creditos
-* parametrodiametro 20.0
-* var = let
-* shift + ctrl + R para refrescar 2.0
-* 215 nuevo codigo
+# clase-07
 
-## Primera prueba de pagina web
-* Hicimos busqueda de 3 filtros/efectos, para que se activaran en el algoritmo entrenado.
+## Proceso para entrega final
+  ETAPA 1: ENTRENAMIENTO
+* Entrenamiento Teachable Machine, eleccion de 3 poses bien definidas.
 * Prueba de cámara para ver si el entrenamiento fue efectivo.
-* Ajuste de index. Titulo y subtitulos no se actualizan en la pagina web
+* Exportar las imagenes en una carpeta zip, descargarlas y subirlas a una carpeta drive.
 
-## Cirugia a los filtros
+  ETAPA 2: BUSCANDO FILTROS PARA LA INTERFAZ
+* Hicimos búsqueda de 3 filtros/efectos, para que se activaran en el algoritmo entrenado.
+* Filtro de textura blanco y negro, para categoría "cerca"
+* Filtro de colores circulares para categoria "caminando"
+* Filtro de letras/ simbolos, para categoria "sentado"
+
+  ETAPA 3: ARREGLO DE INTERFAZ DE LA PÁGINA WEB
+* Ajuste de index. Titulo y subtitulos.
+* Anotamos las instrucciones, recomendaciones y creditos del proyecto
+
+  ETAPA 4: CIRUGIA AL CODIGO
 * Ajuste del código de los filtros "Caminando"
 * Cambio del fondo a una interfaz similar a la pagina web
 * Cambio tamaño del lienzo
