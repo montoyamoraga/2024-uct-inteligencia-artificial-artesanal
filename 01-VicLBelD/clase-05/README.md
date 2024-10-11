@@ -112,6 +112,6 @@ reconoce dos colores en especifico, los cuales serian:
 
 
 ##imagenes explicativos
-![Pantallazo1]
-![Pantallazo1]
-![Pantallazo1]
+![Pantallazo1]()
+![Pantallazo2]()
+![Pantallazo3]()
