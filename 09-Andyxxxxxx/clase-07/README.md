@@ -1,4 +1,4 @@
-# clase-06   11/10/2024
+# clase-07   11/10/2024
 
 ## Avances del Proyecto
 
