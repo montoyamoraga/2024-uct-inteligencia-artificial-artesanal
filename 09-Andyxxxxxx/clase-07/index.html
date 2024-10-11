@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8/dist/teachablemachine-pose.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <h1>SEPU</h1>
+    <h3>Instrucciones</h3>
+    <h3>Esta programación funciona con 3 posiciones diferentes:
+  * Sentado en una silla
+  * Cerca (mostrar la cara)
+  * Caminar/
+    Realice una de estas posiciones y observe los efectos visuales que se mostraran en pantalla. Cada acción esta programada para reaccionar de manera diferente en la interfaz. Disfruta :)</h3>  </h3>
+    <p>Proyecto de programacion Workshop by Noelia Castro y Andres Morales</p>
+    <button type="button" onclick="init()">Prender webcam</button>
+<div><canvas id="canvas"></canvas></div>
+<div id="label-container"></div>
+    <main>
+    </main>
+    <script src="sketch.js"></script>
+  </body>
+</html>
