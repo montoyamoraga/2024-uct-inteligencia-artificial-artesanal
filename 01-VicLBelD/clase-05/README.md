@@ -30,6 +30,22 @@ reconoce dos colores en especifico, los cuales serian:
 ![Pantallazo5](Screenshot_20241010_222658_Chrome.jpg)
 
 
+## lo que se utilizo al crear el codigo
+
+para crear el codigo se utilizo la siguiente pagina
+
+<https://teachablemachine.withgoogle.com/>
+
+ para entrenar se subieron 100 imagenes de cada categoria, en total serian 300, lo que ayudo a la programacion y que se le haga mas facil de indentificar los colores.
+ la pagina que se utilizo para hacer la pagina y editar el codigo es
+
+<https://editor.p5js.org/>
+
+la misma pagina tiene referencias que nos pueden ayudar a la hora de la programacion y edicion del codigo, nos muestra los codigos, como colocarlos tambien un ejemplo de como se verian.
+
+<https://p5js.org/es/reference/>
+
+ 
 ## codigo 
 
 ```javascript
