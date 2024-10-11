@@ -117,6 +117,53 @@ cuando el algoritmo detecta tu rostro, el texto cae y desaparece de la pantalla.
 
 registro del montaje:
 
-bibliografía
+bibliografía:
 
 - textos presagios fueron de factura propia
+
+## grupo-05
+
+nombre del proyecto:
+
+FAADmily Says
+
+integrantes:
+
+- @MrRojasJr
+- @WLADY12
+
+tecnologías usadas:
+
+- ml5.js
+- p5.js
+- Teachable Machine
+
+entradas y salidas de la obra:
+
+la entrada es el micrófono de un computador, que alimenta a un algoritmo de reconocimiento de audio, que fue entrenado con Teachable Machine.
+
+el algoritmo detecta 10 categorías y ruido de fondo:
+
+- ruido de fondo
+- croquis
+- color
+- forma
+- taller
+- expresión
+- bitácora
+- entrega
+- concepto
+- trasnoche
+- desvelo
+
+la base de datos la hicimos con 20 muestras de audio por cada una de las categorías.
+
+este modelo lo exportamos y lo integramos a una app hecha con p5.js y ml5.js.
+
+el algoritmo siempre está escuchando la entrada de audio, y clasificando, y cuando detecta una de las categorías, te celebra tu logro de haber encontrado una de las palabras.
+
+registro del montaje:
+
+bibliografía:
+
+- inspirado por el programa Family Feud.
