@@ -341,3 +341,15 @@ Ocupamos el codigo que nos arrojo teach hable sobre nuestra base de datos, este 
 
 El codigo:
 <https://editor.p5js.org/ruhenschutze/sketches/9FHrvQEnS>
+
+El momento donde pusimos a prueba la idea:
+
+![foto de mi](./PXL_20241011_141911521.jpg)
+![foto de mi](./PXL_20241011_141914905.jpg)
+![foto de mi](./PXL_20241011_141921271.jpg)
+![foto de mi](./PXL_20241011_141925841.jpg)
+![foto de mi](./PXL_20241011_141952380.jpg)
+![foto de mi](./PXL_20241011_141955574.jpg)
+![foto de mi](.PXL_20241011_141957573.jpg/)
+![foto de mi](./PXL_20241011_142002362.jpg)
+![foto de mi](./PXL_20241011_142005382.jpg)
