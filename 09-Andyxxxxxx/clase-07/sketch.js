@@ -129,9 +129,11 @@ function setup() {
   video.size(width, height);
   videoASCII = createCapture(VIDEO);
   video.hide();
+  videoASCII.hide();
 
   vidCerca = createCapture(VIDEO);
   vidCerca.size(64, 48);
+  vidCerca.hide();
 
   asciiDiv = createDiv();
 
@@ -237,8 +239,8 @@ class CircleGrid {
 // ASCII image source text: https://editor.p5js.org/codingtrain/sketches/LNBpdYQHP
 // ASCII image weather API: https://editor.p5js.org/codingtrain/sketches/DhdqcoWn4
 
-// const density = "Ñ@#W$9876543210?!abc;:+=-,._          ";
-const density = '        .:░▒▓█';
+const density = "Ñ@#W$9876543210?!abc;:+=-,._          ";
+// const density = '        .:░▒▓█';
 
 
 let videoASCII;

@@ -18,6 +18,9 @@ h1, h2, h3 {
   padding: 2px;
 }
 
-li {
+ul, li {
   line-height: 0.8;
+  margin: 2px;
+  padding: 2px;
 }
+
