@@ -320,3 +320,13 @@ function gotResult(error, results) {
   classifyVideo();
   console.log(label);
 }
+![foto de mi](./imaged41.png)
+![foto de mi](./imaged410.png)
+![foto de mi](./imaged42.png)
+![foto de mi](./imaged43.png)
+![foto de mi](./imaged44.png)
+![foto de mi](./imaged45.png)
+![foto de mi](./imaged46.png)
+![foto de mi](./imaged47.png)
+![foto de mi](./imaged48.png)
+![foto de mi](./imaged49.png)
