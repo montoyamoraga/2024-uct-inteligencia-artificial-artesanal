@@ -1,5 +1,7 @@
 # clase-05
 
+# "naturaleza"
+
 ## idea del proyecto
 
 el principio de la idea era que dectectara cierta cantidad de colores que se disminuyo a 4 colores pero al ser colores similares u/o iguales, ya que solo serian de mas o poca saturacion  quedando en 2 tonos en especificos mas otros colores que abarca al resto de colores.
@@ -10,16 +12,23 @@ el principio de la idea era que dectectara cierta cantidad de colores que se dis
 reconoce dos colores en especifico, los cuales serian:
 - verde
 - cafes
-  u otros colores pero lo mas importantes son los mencionados anteriormente.
+
+   u otros colores pero lo mas importantes son los mencionados anteriormente.
   ya que son colores que se puededen encontar en la mayoria de localidades. 
 
  aparecera una imagen cuando se muestre el cafe u/o verde, se mostrara en la pantalla.
  las fotos son  tomadas de distintos puntos del campus norte de la uct u otros lugares, en su mayoria son de la uct.
 
+ el reconocimiento funciona con los colores verdes y cafes de la naturaleza.
+
+ el formato que se utilizara para ocupar y reconocer los colores seran en celular con su camara trasera ya que es mas comodo a la hora de utilizarlo
+
+ 
 
 
 
-## imagenes que muestran como funcionan 
+
+## imagenes que muestran como funciona en la tablet 
 
 
 ![Pantallazo1](SmartSelect_20241010_220334_Chrome.jpg
@@ -30,13 +39,21 @@ reconoce dos colores en especifico, los cuales serian:
 ![Pantallazo5](Screenshot_20241010_222658_Chrome.jpg)
 
 
+## como funciona en el celular
+
+![Pantallazo6](Screenshot_20241011-094708-946.png)
+![Pantallazo7](Screenshot_20241011-094745-481.png)
+![Pantallazo8](Screenshot_20241011-095022-452.png)
+![Pantallazo9](Screenshot_20241011-095038-831.png)
+
 ## lo que se utilizo al crear el codigo
 
 para crear el codigo se utilizo la siguiente pagina
 
 <https://teachablemachine.withgoogle.com/>
 
- para entrenar se subieron 100 imagenes de cada categoria, en total serian 300, lo que ayudo a la programacion y que se le haga mas facil de indentificar los colores.
+ para entrenar se subieron 100 imagenes de cada categoria, en total serian 300, lo que ayudo a la programacion y que se le haga mas facil de indentificar los colores, tanto como los tonos escogidos y los otros colores.
+ 
  la pagina que se utilizo para hacer la pagina y editar el codigo es
 
 <https://editor.p5js.org/>
@@ -45,14 +62,34 @@ la misma pagina tiene referencias que nos pueden ayudar a la hora de la programa
 
 <https://p5js.org/es/reference/>
 
- 
-## codigo 
+## link para observar 
+
+<https://editor.p5js.org/VicLBelD/full/Yftun9qiS>
+
+## presentacion
+
+![Pantallazo10](IMG-20241011-WA0023.jpg)
+![Pantallazo11](IMG-20241011-WA0024.jpg)
+![Pantallazo12](IMG-20241011-WA0018.jpgçç)
+![Pantallazo13](IMG-20241011-WA0022.jpg)
+
+
+
+## codigo camara trasera
 
 ```javascript
 // Classifier Variable
 let classifier;
 // Model URL
 let imageModelURL = "./my_model/";
+
+// variables para prender la camara trasera de un celular 
+let opciones = {
+  audio: false,
+  video: {
+    facingMode: "environment",
+  },
+};
 
 
 //  img.position(0, -10);
@@ -82,7 +119,7 @@ function preload() {
 function setup() {
   createCanvas(320, 240);
   // Create the video
-  video = createCapture(VIDEO);
+  video = createCapture(opciones);
   video.size(320, 240);
   video.hide();
   
@@ -145,8 +182,5 @@ function gotResult(error, results) {
   classifyVideo();
 }
 ```
-
-
-
 
 
