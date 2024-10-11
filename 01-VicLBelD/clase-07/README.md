@@ -71,7 +71,7 @@ la misma pagina tiene referencias que nos pueden ayudar a la hora de la programa
 ![Pantallazo10](IMG-20241011-WA0023.jpg)
 ![Pantallazo11](IMG-20241011-WA0024.jpg)
 ![Pantallazo12](IMG-20241011-WA0018.jpgçç)
-![Pantallazo13]
+![Pantallazo13](IMG-20241011-WA0022.jpg)
 
 
 
