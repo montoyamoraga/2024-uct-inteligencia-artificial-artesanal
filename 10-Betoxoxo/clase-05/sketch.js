@@ -131,7 +131,7 @@ function setup() {
 }
 
 function draw() {
-  background(50, 100, 100);
+  //background(50, 100, 100);
   // dibujar la elipse donde corresponde
 
   // atajar las posiciones en los bordes
@@ -148,5 +148,5 @@ function draw() {
     posicionY = anchoY/2;
   }
 
-  ellipse(posicionX, posicionY, anchoX, anchoY);
+  ellipse(posicionX, posicionY, anchoX, anchoY, 70);
 }
