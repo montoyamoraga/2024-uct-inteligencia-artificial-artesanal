@@ -130,6 +130,9 @@ function setup() {
   videoASCII = createCapture(VIDEO);
   video.hide();
 
+  vidCerca = createCapture(VIDEO);
+  vidCerca.size(64, 48);
+
   asciiDiv = createDiv();
 
   grid = new CircleGrid();
@@ -142,7 +145,8 @@ function draw() {
   
   // muestra la grilla de circulitos
   if (estaCerca) {
-    background(0, 255, 0);
+    resizeCanvas(525, 375);
+    videoTipoCerca();
   }
   else if (estaSentado) {
     resizeCanvas(10, 10);
@@ -154,9 +158,9 @@ function draw() {
     grid.display();
   }
   else {
+    resizeCanvas(525, 375);
     background(255, 0, 0);
   }
-
  
 }
 
@@ -262,3 +266,39 @@ function videoTipoASCII() {
   asciiDiv.html(asciiImage);
 }
 
+// codigo para cerca
+/*
+----- Coding Tutorial by Patt Vira ----- 
+Name: Drawing with Webcam Input
+Video Tutorial: https://youtu.be/h6tfT8mbueE
+
+Connect with Patt: @pattvira
+https://www.pattvira.com/
+----------------------------------------
+*/
+
+
+let vidCerca;
+let cercaSCL = 10;
+
+function videoTipoCerca() {
+  background(220);
+  vidCerca.loadPixels();
+  
+  for (let i=0; i < vidCerca.width; i++) {
+    for (let j=0; j < vidCerca.height; j++) {
+      // Using pixels 1D array
+      let index = ((j * vidCerca.width) + i)*4;
+      let r = vidCerca.pixels[index + 0];
+      let g = vidCerca.pixels[index + 1];
+      let b = vidCerca.pixels[index + 2];
+      let a = vidCerca.pixels[index + 3];
+      
+      let c = (r + g + b) / 3;
+      let s = map(c, 0, 100, 0, 20);
+      fill(c);
+
+      ellipse(cercaSCL/2 + i*cercaSCL, cercaSCL/2 + j*cercaSCL, s, s);      
+    }
+  }
+}
