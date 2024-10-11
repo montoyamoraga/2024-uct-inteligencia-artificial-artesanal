@@ -62,6 +62,10 @@ la misma pagina tiene referencias que nos pueden ayudar a la hora de la programa
 
 <https://p5js.org/es/reference/>
 
+## link para observar 
+
+<https://editor.p5js.org/VicLBelD/full/Yftun9qiS>
+
 ## codigo camara trasera
 
 ```javascript
