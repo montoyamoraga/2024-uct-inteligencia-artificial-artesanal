@@ -109,3 +109,9 @@ reconoce dos colores en especifico, los cuales serian:
 
  aparecera una imagen cuando se muestre el cafe u/o verde, se mostrara en la pantalla.
  las fotos son  tomadas de una parte del campus norte de la uct.
+
+
+##imagenes explicativos
+![Pantallazo1]
+![Pantallazo1]
+![Pantallazo1]
