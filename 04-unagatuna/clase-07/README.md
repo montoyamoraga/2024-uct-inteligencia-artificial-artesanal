@@ -25,7 +25,6 @@
 * Actualizacion del tercer filtro
 
 ## Texto que se va a visualizar en la pantalla
-  Instrucciones
   Esta programación funciona con 3 posiciones diferentes:
   * Sentado en una silla
   * Cerca (mostrar la cara)
