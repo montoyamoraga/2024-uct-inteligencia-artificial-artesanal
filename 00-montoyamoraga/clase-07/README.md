@@ -20,3 +20,15 @@ estudiantes:
 - @MrRojasJr
 - @WLADY12
 - @LucasSandoval21
+
+## grupo-01
+
+integrantes:
+
+- blabla
+- blabla
+
+tecnologías usadas:
+
+- ml5.js
+- p5.js
