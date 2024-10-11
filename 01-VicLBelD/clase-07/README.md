@@ -21,7 +21,7 @@ reconoce dos colores en especifico, los cuales serian:
 
 
 
-## imagenes que muestran como funcionan 
+## imagenes que muestran como funciona en la tablet 
 
 
 ![Pantallazo1](SmartSelect_20241010_220334_Chrome.jpg
@@ -31,6 +31,13 @@ reconoce dos colores en especifico, los cuales serian:
 ![Pantallazo4](Screenshot_20241010_222621_Chrome.jpg)
 ![Pantallazo5](Screenshot_20241010_222658_Chrome.jpg)
 
+
+## como funciona en el celular
+
+![Pantallazo6]
+![Pantallazo7]
+![Pantallazo8]
+![Pantallazo9]
 
 ## lo que se utilizo al crear el codigo
 
